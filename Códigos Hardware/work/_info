@@ -1,0 +1,4958 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/altera/15.0/Proyectos/CNNCompleta
+Ecnncompleta
+Z0 w1656785830
+Z1 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z2 DPx6 altera 11 dffeas_pack 0 22 UnfbeWGEe]KW7:DTn;?VS1
+Z3 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z4 DPx6 altera 28 altera_primitives_components 0 22 ]KYk:P<?aKG^=ZNSeb8Pf3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 dC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta
+Z8 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/CNNCompleta.vhd
+Z9 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/CNNCompleta.vhd
+l0
+L6
+VW08Ez`5m0UjTkz9HT@XKj2
+!s100 31=Ok3AVQ[=c50S<GJaV73
+Z10 OV;C;10.3d;59
+32
+Z11 !s110 1657512659
+!i10b 1
+Z12 !s108 1657512659.423000
+Z13 !s90 -reportprogress|300|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/CNNCompleta.vhd|
+Z14 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/CNNCompleta.vhd|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1
+Afunctional
+Z17 DEx4 work 12 secapaoculta 0 22 bBRZdi;5HZUJehifnnWMT2
+Z18 DEx4 work 12 prcapaoculta 0 22 b3SQoIeTSALjP>90EkU:n0
+Z19 DEx4 work 12 registrosram 0 22 SzS2Y6?H_jBka3]1oRj`@3
+Z20 DEx4 work 13 uartramfiltro 0 22 c@IAHKZYD`FXCVFEf@Cg;0
+R1
+R2
+R3
+R4
+R5
+R6
+Z21 DEx4 work 11 cnncompleta 0 22 W08Ez`5m0UjTkz9HT@XKj2
+l49
+L19
+VAfoQ__>VGf6O]n2@mBRhc1
+!s100 LlOhJEiANE]8BeEh5zCXA3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Ecnncompleta_tb
+Z22 w1656987184
+R5
+R6
+R7
+Z23 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/CNNCompleta_tb.vhd
+Z24 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/CNNCompleta_tb.vhd
+l0
+L30
+Vh3YCSB_^8fg:fJ4C?z5PT2
+!s100 DGZkY>ZSP7EO[UjZ`R7OR2
+R10
+32
+R11
+!i10b 1
+Z25 !s108 1657512659.818000
+Z26 !s90 -reportprogress|300|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/CNNCompleta_tb.vhd|
+Z27 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/CNNCompleta_tb.vhd|
+!i113 1
+R15
+R16
+Acnncompleta_tb_arch
+R1
+R2
+R3
+R4
+R21
+R5
+R6
+DEx4 work 14 cnncompleta_tb 0 22 h3YCSB_^8fg:fJ4C?z5PT2
+l44
+L32
+V^]5S9M>SDN[IP1<aG`iiA3
+!s100 GU3ni=Ub@EH`moYMAni]l2
+R10
+32
+R11
+!i10b 1
+R25
+R26
+R27
+!i113 1
+R15
+R16
+Ecomparador_de_comparadores2
+Z28 w1654819324
+R5
+R6
+R7
+Z29 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Comparador_de_comparadores2.vhd
+Z30 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Comparador_de_comparadores2.vhd
+l0
+L43
+VN]UDR?VTG<gMJ[k:QgF]l1
+!s100 c<<=zc6:7D6jaWH]=g1MF1
+R10
+32
+Z31 !s110 1657512660
+!i10b 1
+Z32 !s108 1657512660.329000
+Z33 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Comparador_de_comparadores2.vhd|
+Z34 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Comparador_de_comparadores2.vhd|
+!i113 1
+R15
+R16
+Asyn
+R5
+R6
+Z35 DEx4 work 27 comparador_de_comparadores2 0 22 N]UDR?VTG<gMJ[k:QgF]l1
+l72
+L53
+V=DNlZ1o?S>U2NK5=Gj:O=3
+!s100 Vhh93ID4H1fi?dWLge=IL2
+R10
+32
+R31
+!i10b 1
+R32
+R33
+R34
+!i113 1
+R15
+R16
+Ecomparador_pipo_1y2
+Z36 w1654819200
+R5
+R6
+R7
+Z37 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Comparador_Pipo_1y2.vhd
+Z38 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Comparador_Pipo_1y2.vhd
+l0
+L43
+Vz62lYnZO9ecLbH]eSnRJ_1
+!s100 gjYSVH:PgOkQbJ][XA9Hm1
+R10
+32
+R31
+!i10b 1
+Z39 !s108 1657512660.747000
+Z40 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Comparador_Pipo_1y2.vhd|
+Z41 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Comparador_Pipo_1y2.vhd|
+!i113 1
+R15
+R16
+Asyn
+R5
+R6
+Z42 DEx4 work 19 comparador_pipo_1y2 0 22 z62lYnZO9ecLbH]eSnRJ_1
+l72
+L53
+V_:QRBQ=kPWTCf1UfKFm^I2
+!s100 >CmgaX<X0c6XIVl>2D5h;3
+R10
+32
+R31
+!i10b 1
+R39
+R40
+R41
+!i113 1
+R15
+R16
+Ecomparador_pipo_3y4
+Z43 w1654819284
+R5
+R6
+R7
+Z44 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Comparador_Pipo_3y4.vhd
+Z45 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Comparador_Pipo_3y4.vhd
+l0
+L43
+V_2`P3SfLn_7;>@7jQh^I;0
+!s100 KA;W2?RI0iW0G4MWIAgTl0
+R10
+32
+Z46 !s110 1657512661
+!i10b 1
+Z47 !s108 1657512661.136000
+Z48 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Comparador_Pipo_3y4.vhd|
+Z49 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Comparador_Pipo_3y4.vhd|
+!i113 1
+R15
+R16
+Asyn
+R5
+R6
+Z50 DEx4 work 19 comparador_pipo_3y4 0 22 _2`P3SfLn_7;>@7jQh^I;0
+l72
+L53
+V5@nUV5ZWLQE:2DOL@4XQ=0
+!s100 ojk4Q;<H_IF;BbhmQ6R3:3
+R10
+32
+R46
+!i10b 1
+R47
+R48
+R49
+!i113 1
+R15
+R16
+Ecomparador_pipo_5y6
+Z51 w1654819252
+R5
+R6
+R7
+Z52 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Comparador_Pipo_5y6.vhd
+Z53 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Comparador_Pipo_5y6.vhd
+l0
+L43
+Vj5T]`Y7`T[lbozLYa9T9C3
+!s100 ::^9_ld57hL<zK4?zP_Q51
+R10
+32
+R46
+!i10b 1
+Z54 !s108 1657512661.518000
+Z55 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Comparador_Pipo_5y6.vhd|
+Z56 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Comparador_Pipo_5y6.vhd|
+!i113 1
+R15
+R16
+Asyn
+R5
+R6
+Z57 DEx4 work 19 comparador_pipo_5y6 0 22 j5T]`Y7`T[lbozLYa9T9C3
+l72
+L53
+VT:GL3]RXk@A20`W4;_HnE3
+!s100 ZcHdjJ1NQ5Dg:oU:d0i4>1
+R10
+32
+R46
+!i10b 1
+R54
+R55
+R56
+!i113 1
+R15
+R16
+Ecomparador_pipo_7y8
+Z58 w1654819306
+R5
+R6
+R7
+Z59 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Comparador_Pipo_7y8.vhd
+Z60 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Comparador_Pipo_7y8.vhd
+l0
+L43
+VDa`>i6LQmHn10RR]FKl;N2
+!s100 I5hLFfSW2FUZ^>IN<QieZ2
+R10
+32
+R46
+!i10b 1
+Z61 !s108 1657512661.904000
+Z62 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Comparador_Pipo_7y8.vhd|
+Z63 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Comparador_Pipo_7y8.vhd|
+!i113 1
+R15
+R16
+Asyn
+R5
+R6
+Z64 DEx4 work 19 comparador_pipo_7y8 0 22 Da`>i6LQmHn10RR]FKl;N2
+l72
+L53
+VI4cH6E0U=EGMGP:O0_5Tb2
+!s100 2ink]HjM?@TI:8NeR>eaH2
+R10
+32
+R46
+!i10b 1
+R61
+R62
+R63
+!i113 1
+R15
+R16
+Ecomparadordecomparadores
+Z65 w1654819264
+R5
+R6
+R7
+Z66 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ComparadorDeComparadores.vhd
+Z67 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ComparadorDeComparadores.vhd
+l0
+L43
+VnomLb@zTjLH8clDzUUz0^3
+!s100 NKXDJYUg:ni3A`_]Y^V_G1
+R10
+32
+Z68 !s110 1657512662
+!i10b 1
+Z69 !s108 1657512662.314000
+Z70 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ComparadorDeComparadores.vhd|
+Z71 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ComparadorDeComparadores.vhd|
+!i113 1
+R15
+R16
+Asyn
+R5
+R6
+Z72 DEx4 work 24 comparadordecomparadores 0 22 nomLb@zTjLH8clDzUUz0^3
+l72
+L53
+VWD69A6H]RCF8Dlz_TF6Mb2
+!s100 k8]NT`]G[@R]@oZ[=NOVW2
+R10
+32
+R68
+!i10b 1
+R69
+R70
+R71
+!i113 1
+R15
+R16
+Ecompare
+Z73 w1656577408
+R5
+R6
+R7
+Z74 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Compare.vhd
+Z75 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Compare.vhd
+l0
+L43
+V13nmkYHaP`aFE]IgoEgnc3
+!s100 nmUgNSNddUiI??BFckVB^1
+R10
+32
+R68
+!i10b 1
+Z76 !s108 1657512662.721000
+Z77 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Compare.vhd|
+Z78 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Compare.vhd|
+!i113 1
+R15
+R16
+Asyn
+R5
+R6
+Z79 DEx4 work 7 compare 0 22 13nmkYHaP`aFE]IgoEgnc3
+l74
+L52
+V57=OK?HSn79MXf^WU?4fO3
+!s100 g?12VV;n:3BVe4e2UXkLL0
+R10
+32
+R68
+!i10b 1
+R76
+R77
+R78
+!i113 1
+R15
+R16
+Econtador1
+Z80 w1651628332
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+Z81 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Contador1.vhd
+Z82 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Contador1.vhd
+l0
+L13
+Vje]PJQ2BEl=4AYQ7H]5@W1
+!s100 oX5ZnZXVi_9bA]8@P5?Nn0
+R10
+32
+Z83 !s110 1657512663
+!i10b 1
+Z84 !s108 1657512663.135000
+Z85 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Contador1.vhd|
+Z86 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Contador1.vhd|
+!i113 1
+R15
+R16
+Acontador1arch
+R1
+R2
+R3
+R4
+R5
+R6
+Z87 DEx4 work 9 contador1 0 22 je]PJQ2BEl=4AYQ7H]5@W1
+l40
+L25
+V:Fi@;[ZKZk:K8M<QS@7FF3
+!s100 V2RgE[Zn5jbCDI;n77b7T0
+R10
+32
+R83
+!i10b 1
+R84
+R85
+R86
+!i113 1
+R15
+R16
+Econtador2
+Z88 w1651539166
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+Z89 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Contador2.vhd
+Z90 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Contador2.vhd
+l0
+L13
+VMk?BkZA66;W4z8oT>cZS81
+!s100 W]I>BF@Q5[kgSh2OAZ4IN3
+R10
+32
+R83
+!i10b 1
+Z91 !s108 1657512663.561000
+Z92 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Contador2.vhd|
+Z93 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Contador2.vhd|
+!i113 1
+R15
+R16
+Acontador2arch
+R1
+R2
+R3
+R4
+R5
+R6
+Z94 DEx4 work 9 contador2 0 22 Mk?BkZA66;W4z8oT>cZS81
+l42
+L28
+V]``_ZUADclC4A6?dAfO9B0
+!s100 Q5_[CJZajPRV<WO[InINP3
+R10
+32
+R83
+!i10b 1
+R91
+R92
+R93
+!i113 1
+R15
+R16
+Econtador27
+Z95 w1655461650
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+Z96 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Contador27.vhd
+Z97 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Contador27.vhd
+l0
+L13
+VJVUY;500<H;AM<87J`M4g1
+!s100 Lh<;a7WlPi`LFX6ke<]G01
+R10
+32
+Z98 !s110 1657512664
+!i10b 1
+Z99 !s108 1657512664.800000
+Z100 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Contador27.vhd|
+Z101 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Contador27.vhd|
+!i113 1
+R15
+R16
+Acontador27arch
+R1
+R2
+R3
+R4
+R5
+R6
+DEx4 work 10 contador27 0 22 JVUY;500<H;AM<87J`M4g1
+l38
+L23
+VaB=27OKAU=Tl[Vjl_He>z3
+!s100 a@dkCDg`cJzZ196b6g]:S2
+R10
+32
+R98
+!i10b 1
+R99
+R100
+R101
+!i113 1
+R15
+R16
+Econtador3
+Z102 w1652475244
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+Z103 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Contador3.vhd
+Z104 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Contador3.vhd
+l0
+L13
+V8fJn?oQ_gf7g=hd7A?QUQ0
+!s100 [TcAWZ]kOJ3c<O]:`?5HP2
+R10
+32
+R83
+!i10b 1
+Z105 !s108 1657512663.963000
+Z106 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Contador3.vhd|
+Z107 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Contador3.vhd|
+!i113 1
+R15
+R16
+Acontador3arch
+R1
+R2
+R3
+R4
+R5
+R6
+Z108 DEx4 work 9 contador3 0 22 8fJn?oQ_gf7g=hd7A?QUQ0
+l40
+L27
+VPjmnj2<2eF2nzJ9iz2KB81
+!s100 Ll<8CeEGIlUNFF`enSHFn0
+R10
+32
+R83
+!i10b 1
+R105
+R106
+R107
+!i113 1
+R15
+R16
+Econtador4
+Z109 w1652578878
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+Z110 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Contador4.vhd
+Z111 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Contador4.vhd
+l0
+L13
+VO;DViYzN>KO3BRmI0A^jH0
+!s100 3[^cOSU7:Qfj@eWz`XXiR3
+R10
+32
+R98
+!i10b 1
+Z112 !s108 1657512664.386000
+Z113 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Contador4.vhd|
+Z114 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Contador4.vhd|
+!i113 1
+R15
+R16
+Acontador4arch
+R1
+R2
+R3
+R4
+R5
+R6
+Z115 DEx4 work 9 contador4 0 22 O;DViYzN>KO3BRmI0A^jH0
+l38
+L23
+V2FATm4VZ_Jz`>`b]Rm6Md3
+!s100 3j93jaPL0:fB]=IkKX6hb3
+R10
+32
+R98
+!i10b 1
+R112
+R113
+R114
+!i113 1
+R15
+R16
+Econtrol_conv
+Z116 w1657201711
+R5
+R6
+R7
+Z117 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/control_conv.vhd
+Z118 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/control_conv.vhd
+l0
+L4
+VHZ5g33iI0a0fm4:DKjJOW2
+!s100 gNe9MmH:elHaACBG]RF;o0
+R10
+32
+Z119 !s110 1657512665
+!i10b 1
+Z120 !s108 1657512665.195000
+Z121 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/control_conv.vhd|
+Z122 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/control_conv.vhd|
+!i113 1
+R15
+R16
+Abehavioral
+R5
+R6
+Z123 DEx4 work 12 control_conv 0 22 HZ5g33iI0a0fm4:DKjJOW2
+l93
+L88
+V81NQfBm28@60?3U9Vcale1
+!s100 NjJK6<^TIN8Kl>oCbQ@Bg1
+R10
+32
+R119
+!i10b 1
+R120
+R121
+R122
+!i113 1
+R15
+R16
+Econtrol_memorias
+Z124 w1656557190
+R5
+R6
+R7
+Z125 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/control_memorias.vhd
+Z126 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/control_memorias.vhd
+l0
+L4
+VG?Xe=VV?<9FO4@:_kn1AI1
+!s100 F32j]fzAQ7`;zWFH=8Di=3
+R10
+32
+R119
+!i10b 1
+Z127 !s108 1657512665.590000
+Z128 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/control_memorias.vhd|
+Z129 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/control_memorias.vhd|
+!i113 1
+R15
+R16
+Abehavioral
+R5
+R6
+Z130 DEx4 work 16 control_memorias 0 22 G?Xe=VV?<9FO4@:_kn1AI1
+l23
+L17
+V7P[8P@]XhXMQBS3<?eZ3;3
+!s100 ]AHND;3f7QXMTXniZ7e5>0
+R10
+32
+R119
+!i10b 1
+R127
+R128
+R129
+!i113 1
+R15
+R16
+Econtrol_pr_capa
+Z131 w1657261762
+R5
+R6
+R7
+Z132 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/control_pr_capa.vhd
+Z133 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/control_pr_capa.vhd
+l0
+L4
+VijoiW^::9h<iR>Il5=_AA1
+!s100 oR9C5foWS=R9Ikcj1926_3
+R10
+32
+R119
+!i10b 1
+Z134 !s108 1657512665.966000
+Z135 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/control_pr_capa.vhd|
+Z136 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/control_pr_capa.vhd|
+!i113 1
+R15
+R16
+Abehavioral
+R5
+R6
+Z137 DEx4 work 15 control_pr_capa 0 22 ijoiW^::9h<iR>Il5=_AA1
+l36
+L31
+VRQP:3L7A>=b]^hKm<1@i:1
+!s100 O]NG@N48??M8CiWmc:2=J1
+R10
+32
+R119
+!i10b 1
+R134
+R135
+R136
+!i113 1
+R15
+R16
+Econtrol_se_capa
+Z138 w1657327942
+R5
+R6
+R7
+Z139 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/control_se_capa.vhd
+Z140 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/control_se_capa.vhd
+l0
+L4
+VJJo<c1cZ_iRNQ1[I9MQHO1
+!s100 ;AQFRAK@857XJUNgzjkQa2
+R10
+32
+Z141 !s110 1657512666
+!i10b 1
+Z142 !s108 1657512666.365000
+Z143 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/control_se_capa.vhd|
+Z144 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/control_se_capa.vhd|
+!i113 1
+R15
+R16
+Abehavioral
+R5
+R6
+Z145 DEx4 work 15 control_se_capa 0 22 JJo<c1cZ_iRNQ1[I9MQHO1
+l26
+L21
+VAPSo7T?F1kMkGRna^zZ<[3
+!s100 @MU`ZEH<<W0980mKh5EA50
+R10
+32
+R141
+!i10b 1
+R142
+R143
+R144
+!i113 1
+R15
+R16
+Econtrol_uart
+Z146 w1656556700
+R5
+R6
+R7
+Z147 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/control_uart.vhd
+Z148 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/control_uart.vhd
+l0
+L4
+VaSl_`doIa>46j1F9m`26Y1
+!s100 EzQC^HAXKGd3GJ87do21K0
+R10
+32
+R141
+!i10b 1
+Z149 !s108 1657512666.756000
+Z150 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/control_uart.vhd|
+Z151 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/control_uart.vhd|
+!i113 1
+R15
+R16
+Abehavioral
+R5
+R6
+Z152 DEx4 work 12 control_uart 0 22 aSl_`doIa>46j1F9m`26Y1
+l28
+L22
+Vl;:;Y:E7WNRFFW]i]ijZH3
+!s100 _Vj]=W;o`Q@?<Wg@kbY5U1
+R10
+32
+R141
+!i10b 1
+R149
+R150
+R151
+!i113 1
+R15
+R16
+Econtrolmp
+Z153 w1657274600
+R5
+R6
+R7
+Z154 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ControlMP.vhd
+Z155 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ControlMP.vhd
+l0
+L4
+VZ<b?ehC34S:;BORQJ>m2[0
+!s100 lg`[[3IK2P4ioz`W1nUk;1
+R10
+32
+Z156 !s110 1657512667
+!i10b 1
+Z157 !s108 1657512667.162000
+Z158 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ControlMP.vhd|
+Z159 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ControlMP.vhd|
+!i113 1
+R15
+R16
+Abehavioral
+R5
+R6
+Z160 DEx4 work 9 controlmp 0 22 Z<b?ehC34S:;BORQJ>m2[0
+l25
+L20
+VcWE>EJhmD`Y=^QkJP??@m2
+!s100 c]i6@NT2>jo5U26aS1F8d3
+R10
+32
+R156
+!i10b 1
+R157
+R158
+R159
+!i113 1
+R15
+R16
+Ecount
+Z161 w1656388652
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+Z162 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/count.vhd
+Z163 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/count.vhd
+l0
+L13
+VEaINfe[6QG=<oLZ7=9kKc3
+!s100 0_mPIzZ=OWZcJ9_Za>2cR3
+R10
+32
+R156
+!i10b 1
+Z164 !s108 1657512667.540000
+Z165 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/count.vhd|
+Z166 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/count.vhd|
+!i113 1
+R15
+R16
+Acountarch
+R1
+R2
+R3
+R4
+R5
+R6
+DEx4 work 5 count 0 22 EaINfe[6QG=<oLZ7=9kKc3
+l43
+L26
+V<Lm0_l7cNk`0hIOVKUUDB1
+!s100 5G>od1IRiOLZdOCIJ;bM=2
+R10
+32
+R156
+!i10b 1
+R164
+R165
+R166
+!i113 1
+R15
+R16
+Ecount_8vcs
+Z167 w1657151352
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+Z168 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Count_8vcs.vhd
+Z169 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Count_8vcs.vhd
+l0
+L13
+V:EFzaOjOCa4_=ob4MK7lh1
+!s100 8=2ZV^mV_jbngS^SfcfW_1
+R10
+32
+R156
+!i10b 1
+Z170 !s108 1657512667.931000
+Z171 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Count_8vcs.vhd|
+Z172 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Count_8vcs.vhd|
+!i113 1
+R15
+R16
+Acount_8vcsarch
+R1
+R2
+R3
+R4
+R5
+R6
+Z173 DEx4 work 10 count_8vcs 0 22 :EFzaOjOCa4_=ob4MK7lh1
+l38
+L24
+V_TWGHdhQRA:GKQE_A;D0Y3
+!s100 R;BMzke^oFCK?E:j?f7a>2
+R10
+32
+R156
+!i10b 1
+R170
+R171
+R172
+!i113 1
+R15
+R16
+Ecount_filtro
+Z174 w1657168758
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+Z175 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Count_Filtro.vhd
+Z176 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Count_Filtro.vhd
+l0
+L13
+VNeT:3fVPnGG3bdl;;>KAi0
+!s100 i_dAE9X_S:3BJW;>>TiTl2
+R10
+32
+Z177 !s110 1657512668
+!i10b 1
+Z178 !s108 1657512668.348000
+Z179 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Count_Filtro.vhd|
+Z180 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Count_Filtro.vhd|
+!i113 1
+R15
+R16
+Acount_filtroarch
+R1
+R2
+R3
+R4
+R5
+R6
+Z181 DEx4 work 12 count_filtro 0 22 NeT:3fVPnGG3bdl;;>KAi0
+l41
+L27
+VVc<Y:]OffkTT^ennKn_<M1
+!s100 E3nZ?MSl[i?oaR;:?5BRn0
+R10
+32
+R177
+!i10b 1
+R178
+R179
+R180
+!i113 1
+R15
+R16
+Ecount_fin
+Z182 w1657168736
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+Z183 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Count_Fin.vhd
+Z184 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Count_Fin.vhd
+l0
+L13
+VLRkND;HKQR4UkBl0agW9<3
+!s100 G`E@Rcf2n2>IKKL;;XLOl0
+R10
+32
+R177
+!i10b 1
+Z185 !s108 1657512668.759000
+Z186 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Count_Fin.vhd|
+Z187 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Count_Fin.vhd|
+!i113 1
+R15
+R16
+Acount_finarch
+R1
+R2
+R3
+R4
+R5
+R6
+Z188 DEx4 work 9 count_fin 0 22 LRkND;HKQR4UkBl0agW9<3
+l38
+L24
+VQgH@O7Bbac;CK;8>76?6@2
+!s100 ?AIn2AmH_C`Zz__BK1NG=3
+R10
+32
+R177
+!i10b 1
+R185
+R186
+R187
+!i113 1
+R15
+R16
+Ecount_relu
+Z189 w1657168724
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+Z190 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Count_Relu.vhd
+Z191 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Count_Relu.vhd
+l0
+L13
+Vz8MDL3AUBGjZJ0PFYiHiP0
+!s100 <an9XhM4FnL;cL8;4:[QS0
+R10
+32
+Z192 !s110 1657512669
+!i10b 1
+Z193 !s108 1657512669.157000
+Z194 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Count_Relu.vhd|
+Z195 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Count_Relu.vhd|
+!i113 1
+R15
+R16
+Acount_reluarch
+R1
+R2
+R3
+R4
+R5
+R6
+Z196 DEx4 work 10 count_relu 0 22 z8MDL3AUBGjZJ0PFYiHiP0
+l41
+L27
+V[j=^_5S?oka37C@DJ2]kH0
+!s100 :=Y0YXSW[n[DPX2e`@fcV0
+R10
+32
+R192
+!i10b 1
+R193
+R194
+R195
+!i113 1
+R15
+R16
+Ecountgaptiempos
+Z197 w1654833812
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+Z198 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/CountGapTiempos.vhd
+Z199 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/CountGapTiempos.vhd
+l0
+L13
+VOieGJVLg1lkWEPG4hgV8g2
+!s100 U8_boRf`E]4T8zYGDKYm<3
+R10
+32
+R192
+!i10b 1
+Z200 !s108 1657512669.553000
+Z201 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/CountGapTiempos.vhd|
+Z202 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/CountGapTiempos.vhd|
+!i113 1
+R15
+R16
+Acountgaptiemposarch
+R1
+R2
+R3
+R4
+R5
+R6
+DEx4 work 15 countgaptiempos 0 22 OieGJVLg1lkWEPG4hgV8g2
+l41
+L27
+VeiF2AD^][@235bhA80LBD1
+!s100 2DD6Edk>TE96OD^g=2RCm1
+R10
+32
+R192
+!i10b 1
+R200
+R201
+R202
+!i113 1
+R15
+R16
+Edirecciones
+Z203 w1652578850
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+Z204 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Direcciones.vhd
+Z205 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Direcciones.vhd
+l0
+L13
+V6UM=Poi1OV@I[_7gHHInB3
+!s100 BhTajmO[nVi9d_`zEmOOo0
+R10
+32
+R192
+!i10b 1
+Z206 !s108 1657512669.943000
+Z207 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Direcciones.vhd|
+Z208 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Direcciones.vhd|
+!i113 1
+R15
+R16
+Adireccionesarch
+R1
+R2
+R3
+R4
+R5
+R6
+Z209 DEx4 work 11 direcciones 0 22 6UM=Poi1OV@I[_7gHHInB3
+l38
+L23
+VFlfj:M1h@7hU1l2zbSlfh1
+!s100 AE;oGSki[CT0RZF`ajgY10
+R10
+32
+R192
+!i10b 1
+R206
+R207
+R208
+!i113 1
+R15
+R16
+Edirecciones2capa
+Z210 w1657306910
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+Z211 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Direcciones2Capa.vhd
+Z212 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Direcciones2Capa.vhd
+l0
+L13
+VOHd6^9jWRSn;gVZ_I=GWF3
+!s100 mn;m`S=Q`bSXed;6z::lE3
+R10
+32
+Z213 !s110 1657512670
+!i10b 1
+Z214 !s108 1657512670.351000
+Z215 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Direcciones2Capa.vhd|
+Z216 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Direcciones2Capa.vhd|
+!i113 1
+R15
+R16
+Adirecciones2capaarch
+R1
+R2
+R3
+R4
+R5
+R6
+Z217 DEx4 work 16 direcciones2capa 0 22 OHd6^9jWRSn;gVZ_I=GWF3
+l38
+L23
+V<2V`WogBo7RP>[PKQE>]j2
+!s100 WQVIQPRhAMFKJE=Nc29681
+R10
+32
+R213
+!i10b 1
+R214
+R215
+R216
+!i113 1
+R15
+R16
+Edireccionespareimpar
+Z218 w1657302559
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+Z219 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/DireccionesParEImpar.vhd
+Z220 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/DireccionesParEImpar.vhd
+l0
+L13
+VmCD>kKE:hZ13>_`k_7SUR1
+!s100 CQmPSXDHKLLb;aQ;8N=Z]2
+R10
+32
+R213
+!i10b 1
+Z221 !s108 1657512670.758000
+Z222 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/DireccionesParEImpar.vhd|
+Z223 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/DireccionesParEImpar.vhd|
+!i113 1
+R15
+R16
+Adireccionespareimpararch
+R1
+R2
+R3
+R4
+R5
+R6
+Z224 DEx4 work 20 direccionespareimpar 0 22 mCD>kKE:hZ13>_`k_7SUR1
+l39
+L23
+VHKY>G601<a<Fd?hBgQUYM2
+!s100 e2[2BkLol3<H9`1CB;FVo3
+R10
+32
+R213
+!i10b 1
+R221
+R222
+R223
+!i113 1
+R15
+R16
+Edirrdram
+Z225 w1656570548
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+Z226 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/DirRdRAM.vhd
+Z227 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/DirRdRAM.vhd
+l0
+L13
+V:KidMQ135TE@SThP0A?Je0
+!s100 QN@WTdU^Y^S9ONcn:@N??3
+R10
+32
+Z228 !s110 1657512671
+!i10b 1
+Z229 !s108 1657512671.146000
+Z230 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/DirRdRAM.vhd|
+Z231 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/DirRdRAM.vhd|
+!i113 1
+R15
+R16
+Adirrdramarch
+R1
+R2
+R3
+R4
+R5
+R6
+Z232 DEx4 work 8 dirrdram 0 22 :KidMQ135TE@SThP0A?Je0
+l38
+L23
+V>OOOChM3ER=D85e4RoLiT3
+!s100 =2NjZ`1S6jK]VcG4EXME72
+R10
+32
+R228
+!i10b 1
+R229
+R230
+R231
+!i113 1
+R15
+R16
+Edirrdrom
+Z233 w1657306293
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+Z234 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/DirRdROM.vhd
+Z235 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/DirRdROM.vhd
+l0
+L13
+VCNigB9?j3@TXF0l5AR=ae1
+!s100 ]>M4DZ1Y`5K?VY@WVk<EW2
+R10
+32
+R228
+!i10b 1
+Z236 !s108 1657512671.539000
+Z237 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/DirRdROM.vhd|
+Z238 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/DirRdROM.vhd|
+!i113 1
+R15
+R16
+Adirrdromarch
+R1
+R2
+R3
+R4
+R5
+R6
+Z239 DEx4 work 8 dirrdrom 0 22 CNigB9?j3@TXF0l5AR=ae1
+l38
+L23
+Vnzmo@Y??6XBh32da[GJI<3
+!s100 2dYRL<KZJi9H_Pfz4FDTj1
+R10
+32
+R228
+!i10b 1
+R236
+R237
+R238
+!i113 1
+R15
+R16
+Efiltro_conv
+Z240 w1657302834
+R1
+R2
+R3
+R4
+Z241 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R5
+R6
+R7
+Z242 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Filtro_conv.vhd
+Z243 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Filtro_conv.vhd
+l0
+L7
+V9K]PGz5oZbEOM2P8QMT=A1
+!s100 @aBTbUcYAODWMHkPaHC]l2
+R10
+32
+R228
+!i10b 1
+Z244 !s108 1657512671.932000
+Z245 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Filtro_conv.vhd|
+Z246 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Filtro_conv.vhd|
+!i113 1
+R15
+R16
+Afunctional
+R123
+Z247 DEx4 work 4 relu 0 22 G3n5gGVMkbOjZ?o^UlVNh3
+Z248 DEx4 work 8 registro 0 22 `>`@EGbOdX?zGAUc]O=XS1
+Z249 DEx4 work 7 sum_add 0 22 lO]5R3O^0<m<X:KlE9f=W0
+Z250 DEx4 work 4 mult 0 22 _Lbd9FB=Q1?FJXU4=l]kZ3
+Z251 DEx4 work 9 registro8 0 22 3[>zHj^NPjIWM^jW_@z9F0
+Z252 DEx4 work 16 registro_rom_7in 0 22 XQ;`T_;4H0WazoK=0DNf^3
+Z253 DEx4 work 16 registro_rom_6in 0 22 `B<]0Idh?1SVK?a<<D?=G0
+Z254 DEx4 work 16 registro_rom_5in 0 22 EOYMLbD7CWXL`gPgkS3lz3
+Z255 DEx4 work 16 registro_rom_4in 0 22 >9gB3Oe=e>0WVW`O7Lo]R1
+Z256 DEx4 work 16 registro_rom_3in 0 22 7zdgjeR^E=?GlFeQ`ao^z2
+Z257 DEx4 work 16 registro_rom_2in 0 22 DW5INb_<6I1b7`5c4AS1C2
+Z258 DEx4 work 16 registro_rom_1in 0 22 DRB2CcEJ27J2Dl5`_G7]@0
+Z259 DEx4 work 12 rom_filtro_5 0 22 56m2hAgIfQ73bB0c5M8^L3
+Z260 DEx4 work 12 rom_filtro_4 0 22 FoFmVV^^fgng>gWnm_l;53
+Z261 DEx4 work 12 rom_filtro_3 0 22 eQBezdz2Vo8o[lCnZ:E>J0
+Z262 DEx4 work 12 rom_filtro_2 0 22 d>7ZRD:gdOTQg?Hm4JofS3
+Z263 DPx9 altera_mf 20 altera_mf_components 0 22 :zX8E]9f?PCk8X:Y[X97:1
+Z264 DEx4 work 12 rom_filtro_1 0 22 EP05MTQ9BB<K938YnaR]T0
+Z265 DEx4 work 17 multiplexorfiltro 0 22 FAc0mHg@0jY1L@PzEH?L70
+Z266 DEx4 work 6 sum_14 0 22 ASg:lG_B:MLg=kgm>7QGg1
+Z267 DEx4 work 5 sum_7 0 22 3?cDl@i^V7[3C0VYo`J9M1
+R79
+Z268 DEx4 work 3 sum 0 22 z34dk@9D:IojHOl:InlPN3
+R181
+R196
+R188
+R1
+R2
+R3
+R4
+R241
+R5
+R6
+Z269 DEx4 work 11 filtro_conv 0 22 9K]PGz5oZbEOM2P8QMT=A1
+l171
+L42
+VF>G^=@l:W?^l<^OQ7U^0<1
+!s100 [IM[g`3KhTmnCFfLN3_aa3
+R10
+32
+R228
+!i10b 1
+R244
+R245
+R246
+!i113 1
+R15
+R16
+Ememoria
+Z270 w1656575822
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+Z271 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Memoria.vhd
+Z272 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Memoria.vhd
+l0
+L6
+VJYWKg6T]d_Em@<>Fjf]ga2
+!s100 ec67cR218lWl7HZM6BUQS1
+R10
+32
+Z273 !s110 1657512672
+!i10b 1
+Z274 !s108 1657512672.433000
+Z275 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Memoria.vhd|
+Z276 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Memoria.vhd|
+!i113 1
+R15
+R16
+Afunctional
+R130
+R115
+R108
+R209
+Z277 DEx4 work 8 ram_o2a1 0 22 :h4JTciUa0TO7WVEUn1d11
+Z278 DEx4 work 8 ram_c4a1 0 22 lPLm403=ljckDQbLT[L]Z3
+Z279 DEx4 work 8 ram_spo2 0 22 @`MiCC<L>0gNZ:Lb]OSoX0
+Z280 DEx4 work 10 ram_i_ronq 0 22 bNCIc9?VUZ2DQj^GTf9Q?0
+Z281 DEx4 work 9 ram_torax 0 22 zlo748SOnmnWWSHZnZb?R1
+Z282 DEx4 work 7 ram_ppg 0 22 jX>zg=V4jEI;XMXXRD3dd1
+Z283 DEx4 work 10 ram_f_aire 0 22 Dh74gd71]d5=^U]DLbOA[0
+R263
+Z284 DEx4 work 9 ram_abdom 0 22 0?A]eCl91go20Rj:TEgA92
+R1
+R2
+R3
+R4
+R5
+R6
+Z285 DEx4 work 7 memoria 0 22 JYWKg6T]d_Em@<>Fjf]ga2
+l76
+L44
+ValE`:5`L:H0OnOLGWNCd=0
+!s100 g3=INNGI54dH:14_?C<nO3
+R10
+32
+R273
+!i10b 1
+R274
+R275
+R276
+!i113 1
+R15
+R16
+Emult
+Z286 w1656211558
+R5
+R6
+R7
+Z287 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Mult.vhd
+Z288 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Mult.vhd
+l0
+L43
+V_Lbd9FB=Q1?FJXU4=l]kZ3
+!s100 g_C>eFC8`0EP=KOX<`<b^2
+R10
+32
+R273
+!i10b 1
+Z289 !s108 1657512672.874000
+Z290 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Mult.vhd|
+Z291 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Mult.vhd|
+!i113 1
+R15
+R16
+Asyn
+R5
+R6
+R250
+l75
+L53
+VJ;bIgDHE4B8zi?Ea6TXQE0
+!s100 J5E8cSI]PS4P0N3>0a;D;3
+R10
+32
+R273
+!i10b 1
+R289
+R290
+R291
+!i113 1
+R15
+R16
+Emult1capa2
+Z292 w1656657096
+R5
+R6
+R7
+Z293 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Mult1Capa2.vhd
+Z294 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Mult1Capa2.vhd
+l0
+L43
+VSkNUMAFaj3iZelgmQV3W82
+!s100 CTMFWhze<GSZPXm;=AWT60
+R10
+32
+Z295 !s110 1657512673
+!i10b 1
+Z296 !s108 1657512673.270000
+Z297 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Mult1Capa2.vhd|
+Z298 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Mult1Capa2.vhd|
+!i113 1
+R15
+R16
+Asyn
+R5
+R6
+Z299 DEx4 work 10 mult1capa2 0 22 SkNUMAFaj3iZelgmQV3W82
+l75
+L53
+Vo>c1M=MT<ln96[zI<Sh[[3
+!s100 @z?PCdE9d4Fo<0]@4APS:0
+R10
+32
+R295
+!i10b 1
+R296
+R297
+R298
+!i113 1
+R15
+R16
+Emultiplexor
+Z300 w1652712216
+Z301 DPx3 lpm 14 lpm_components 0 22 4J@JVnz0@^T1iA`f^fRg21
+R5
+R6
+R7
+Z302 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Multiplexor.vhd
+Z303 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Multiplexor.vhd
+l0
+L43
+V8GUF9VkWjIOAH6>RCOJ=?1
+!s100 <CKWBoej0NEUE<NzYV2Ye0
+R10
+32
+R295
+!i10b 1
+Z304 !s108 1657512673.659000
+Z305 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Multiplexor.vhd|
+Z306 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Multiplexor.vhd|
+!i113 1
+R15
+R16
+Asyn
+R301
+R5
+R6
+DEx4 work 11 multiplexor 0 22 8GUF9VkWjIOAH6>RCOJ=?1
+l67
+L56
+V8AYmJdBXnMC1T9<6`I3H:3
+!s100 [TScEEg0::^]GDgT8X7;b3
+R10
+32
+R295
+!i10b 1
+R304
+R305
+R306
+!i113 1
+R15
+R16
+Emultiplexorfiltro
+Z307 w1656761778
+R5
+R6
+R7
+Z308 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/multiplexorFiltro.vhd
+Z309 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/multiplexorFiltro.vhd
+l0
+L4
+VFAc0mHg@0jY1L@PzEH?L70
+!s100 f4dZAFj2Z3m9D;JzLI8MO1
+R10
+32
+Z310 !s110 1657512674
+!i10b 1
+Z311 !s108 1657512674.049000
+Z312 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/multiplexorFiltro.vhd|
+Z313 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/multiplexorFiltro.vhd|
+!i113 1
+R15
+R16
+Aarch
+R5
+R6
+R265
+l15
+L12
+VUeLhWc0AL5_]bRh^X4AJ`3
+!s100 RZ^BU>Lg@0_[nM6LJfiPR0
+R10
+32
+R310
+!i10b 1
+R311
+R312
+R313
+!i113 1
+R15
+R16
+Emultiplicador
+Z314 w1656570792
+R5
+R6
+R7
+Z315 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Multiplicador.vhd
+Z316 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Multiplicador.vhd
+l0
+L43
+Vd_Zo@gTE6`alB^^<2BEmA0
+!s100 GXjM7zJVi_HleQbSlVimQ3
+R10
+32
+R310
+!i10b 1
+Z317 !s108 1657512674.439000
+Z318 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Multiplicador.vhd|
+Z319 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Multiplicador.vhd|
+!i113 1
+R15
+R16
+Asyn
+R5
+R6
+Z320 DEx4 work 13 multiplicador 0 22 d_Zo@gTE6`alB^^<2BEmA0
+l75
+L53
+VV4IJBSm1Vj5QWA;c8lg631
+!s100 SFhd?7Q^]La:g2kQOI9[n1
+R10
+32
+R310
+!i10b 1
+R317
+R318
+R319
+!i113 1
+R15
+R16
+Emux2_1_gates
+Z321 w1656450732
+R5
+R6
+R7
+Z322 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/mux2_1_gates.vhd
+Z323 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/mux2_1_gates.vhd
+l0
+L4
+V[zH?25SS56MQBcP1bTX<n1
+!s100 ]dh_?KkY_4H8f40<OgEe^0
+R10
+32
+Z324 !s110 1657512676
+!i10b 1
+Z325 !s108 1657512676.818000
+Z326 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/mux2_1_gates.vhd|
+Z327 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/mux2_1_gates.vhd|
+!i113 1
+R15
+R16
+Agatelevel
+R5
+R6
+Z328 DEx4 work 12 mux2_1_gates 0 22 [zH?25SS56MQBcP1bTX<n1
+l13
+L10
+VSJGF9B5nH8_317Ej`kIn11
+!s100 b4Snbi:ce^VGz;:@C9WY51
+R10
+32
+R324
+!i10b 1
+R325
+R326
+R327
+!i113 1
+R15
+R16
+Emux_1y2
+Z329 w1654819336
+R301
+R5
+R6
+R7
+Z330 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Mux_1y2.vhd
+Z331 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Mux_1y2.vhd
+l0
+L43
+VZlSb_oLUBP5TagLYPQLJh2
+!s100 KaTCFL>J`DiOz]a@RO_Zk0
+R10
+32
+R310
+!i10b 1
+Z332 !s108 1657512674.826000
+Z333 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Mux_1y2.vhd|
+Z334 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Mux_1y2.vhd|
+!i113 1
+R15
+R16
+Asyn
+R301
+R5
+R6
+Z335 DEx4 work 7 mux_1y2 0 22 ZlSb_oLUBP5TagLYPQLJh2
+l65
+L54
+V2b0za[R@4nSN`l_@m>;SP0
+!s100 _WO6PEa9h]C?<N@CE^hRc3
+R10
+32
+R310
+!i10b 1
+R332
+R333
+R334
+!i113 1
+R15
+R16
+Emux_3y4
+Z336 w1654819408
+R301
+R5
+R6
+R7
+Z337 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Mux_3y4.vhd
+Z338 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Mux_3y4.vhd
+l0
+L43
+VFo5zQQlgkPN^iflX6DUZc2
+!s100 :gElFd=T6V7Q:7i=`>FS;1
+R10
+32
+Z339 !s110 1657512675
+!i10b 1
+Z340 !s108 1657512675.219000
+Z341 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Mux_3y4.vhd|
+Z342 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Mux_3y4.vhd|
+!i113 1
+R15
+R16
+Asyn
+R301
+R5
+R6
+Z343 DEx4 work 7 mux_3y4 0 22 Fo5zQQlgkPN^iflX6DUZc2
+l65
+L54
+V]Q<9D;E9ON3X=9M2kmATl0
+!s100 KicBFDlE@j5:lQO5QTO:70
+R10
+32
+R339
+!i10b 1
+R340
+R341
+R342
+!i113 1
+R15
+R16
+Emux_5y6
+Z344 w1654819382
+R301
+R5
+R6
+R7
+Z345 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Mux_5y6.vhd
+Z346 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Mux_5y6.vhd
+l0
+L43
+VPR7?ia8C2Z:ZV3OIUCJ]30
+!s100 5S9NKio?PWFkG2@B`[b[C2
+R10
+32
+R339
+!i10b 1
+Z347 !s108 1657512675.620000
+Z348 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Mux_5y6.vhd|
+Z349 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Mux_5y6.vhd|
+!i113 1
+R15
+R16
+Asyn
+R301
+R5
+R6
+Z350 DEx4 work 7 mux_5y6 0 22 PR7?ia8C2Z:ZV3OIUCJ]30
+l65
+L54
+V_65KOaFS]eaQIf`5Kd=E43
+!s100 OScfITmz?BnF1DRfJ0Q[:3
+R10
+32
+R339
+!i10b 1
+R347
+R348
+R349
+!i113 1
+R15
+R16
+Emux_7y8
+Z351 w1654819452
+R301
+R5
+R6
+R7
+Z352 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Mux_7y8.vhd
+Z353 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Mux_7y8.vhd
+l0
+L43
+VQi5Y:ol3_Y6@4LIR>8HMe2
+!s100 dFf?iJ=^Wg`EVaKzjALZH3
+R10
+32
+R324
+!i10b 1
+Z354 !s108 1657512676.018000
+Z355 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Mux_7y8.vhd|
+Z356 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Mux_7y8.vhd|
+!i113 1
+R15
+R16
+Asyn
+R301
+R5
+R6
+Z357 DEx4 work 7 mux_7y8 0 22 Qi5Y:ol3_Y6@4LIR>8HMe2
+l65
+L54
+VhGXal5`THUYU3dY?Y37zB2
+!s100 eWn^<nI`1h3Co:jn_ED>b2
+R10
+32
+R324
+!i10b 1
+R354
+R355
+R356
+!i113 1
+R15
+R16
+Emux_comparadores
+Z358 w1654819498
+R301
+R5
+R6
+R7
+Z359 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Mux_Comparadores.vhd
+Z360 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Mux_Comparadores.vhd
+l0
+L43
+VTLH<K:GAQ:36Clb97:mZL2
+!s100 Fjl=ziL4EgzEmRKli6=G63
+R10
+32
+R324
+!i10b 1
+Z361 !s108 1657512676.428000
+Z362 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Mux_Comparadores.vhd|
+Z363 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Mux_Comparadores.vhd|
+!i113 1
+R15
+R16
+Asyn
+R301
+R5
+R6
+Z364 DEx4 work 16 mux_comparadores 0 22 TLH<K:GAQ:36Clb97:mZL2
+l65
+L54
+VWnD27JDciG:;Oe0_<ABaS2
+!s100 n23YCQ9R_fF`<Sl70D?@A1
+R10
+32
+R324
+!i10b 1
+R361
+R362
+R363
+!i113 1
+R15
+R16
+Emuxes
+Z365 w1656450728
+R5
+R6
+R7
+Z366 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/muxes.vhd
+Z367 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/muxes.vhd
+l0
+L4
+VZdNCPPlRLgZKIgg<Y7@[k0
+!s100 0`KC8CAUe0T^JToPRD5BW2
+R10
+32
+Z368 !s110 1657512677
+!i10b 1
+Z369 !s108 1657512677.202000
+Z370 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/muxes.vhd|
+Z371 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/muxes.vhd|
+!i113 1
+R15
+R16
+Agatelevel
+R328
+R5
+R6
+DEx4 work 5 muxes 0 22 ZdNCPPlRLgZKIgg<Y7@[k0
+l17
+L14
+V<MRdzc1MXjK`m_?C4Z;Z_3
+!s100 ?XoRWCE5[_K>:W27J_bA50
+R10
+32
+R368
+!i10b 1
+R369
+R370
+R371
+!i113 1
+R15
+R16
+Epipo_1
+Z372 w1657304989
+R5
+R6
+R7
+Z373 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Pipo_1.vhd
+Z374 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Pipo_1.vhd
+l0
+L4
+VBV6fFRz769E2O9@_;[HDB1
+!s100 HIVQ@9gTffLU2Nnk;]h>@0
+R10
+32
+R368
+!i10b 1
+Z375 !s108 1657512677.588000
+Z376 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Pipo_1.vhd|
+Z377 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Pipo_1.vhd|
+!i113 1
+R15
+R16
+Apipo_1arch
+R5
+R6
+Z378 DEx4 work 6 pipo_1 0 22 BV6fFRz769E2O9@_;[HDB1
+l28
+L15
+VGmLjecCU7?B3>S7K]09>V0
+!s100 YE9KR]dF918c]U?2Z6`741
+R10
+32
+R368
+!i10b 1
+R375
+R376
+R377
+!i113 1
+R15
+R16
+Epipo_2
+Z379 w1657304985
+R5
+R6
+R7
+Z380 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Pipo_2.vhd
+Z381 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Pipo_2.vhd
+l0
+L4
+VX2OM9d5<X^`F1`9S:bkWZ2
+!s100 MdSzB_UEeB7M`=bOkEggI0
+R10
+32
+R368
+!i10b 1
+Z382 !s108 1657512677.967000
+Z383 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Pipo_2.vhd|
+Z384 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Pipo_2.vhd|
+!i113 1
+R15
+R16
+Apipo_2arch
+R5
+R6
+Z385 DEx4 work 6 pipo_2 0 22 X2OM9d5<X^`F1`9S:bkWZ2
+l28
+L15
+Vmgz7FVN3Dll6cV=PPfoO?1
+!s100 [iFUC=YaKAM>G4cGiTE<;0
+R10
+32
+R368
+!i10b 1
+R382
+R383
+R384
+!i113 1
+R15
+R16
+Epipo_3
+Z386 w1657304979
+R5
+R6
+R7
+Z387 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Pipo_3.vhd
+Z388 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Pipo_3.vhd
+l0
+L4
+VA<dhZahha8^Rdn0_]TikH3
+!s100 5@`oAN:_HQcWAjQHSLVe^1
+R10
+32
+Z389 !s110 1657512678
+!i10b 1
+Z390 !s108 1657512678.355000
+Z391 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Pipo_3.vhd|
+Z392 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Pipo_3.vhd|
+!i113 1
+R15
+R16
+Apipo_3arch
+R5
+R6
+Z393 DEx4 work 6 pipo_3 0 22 A<dhZahha8^Rdn0_]TikH3
+l28
+L15
+VFGT89nAbCegoa?0z^9;?z0
+!s100 _leU7Y`]m=?XUE5NiM@zJ2
+R10
+32
+R389
+!i10b 1
+R390
+R391
+R392
+!i113 1
+R15
+R16
+Epipo_4
+Z394 w1657304974
+R5
+R6
+R7
+Z395 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Pipo_4.vhd
+Z396 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Pipo_4.vhd
+l0
+L4
+V@Hj`E^cBdF4Wh8;YUYDJ<2
+!s100 N]NR[1FKb=77lh`LRGedC1
+R10
+32
+R389
+!i10b 1
+Z397 !s108 1657512678.744000
+Z398 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Pipo_4.vhd|
+Z399 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Pipo_4.vhd|
+!i113 1
+R15
+R16
+Apipo_4arch
+R5
+R6
+Z400 DEx4 work 6 pipo_4 0 22 @Hj`E^cBdF4Wh8;YUYDJ<2
+l28
+L15
+VO7@`7nVAB_=jJj>72I?nm0
+!s100 BILQaKz[==T^733An7IGM2
+R10
+32
+R389
+!i10b 1
+R397
+R398
+R399
+!i113 1
+R15
+R16
+Epipo_5
+Z401 w1657304969
+R5
+R6
+R7
+Z402 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Pipo_5.vhd
+Z403 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Pipo_5.vhd
+l0
+L4
+VgMV5IYK?e8UlFWRQ0dkCA0
+!s100 c@oej=YGDdlN@B8`DSjTY2
+R10
+32
+Z404 !s110 1657512679
+!i10b 1
+Z405 !s108 1657512679.122000
+Z406 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Pipo_5.vhd|
+Z407 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Pipo_5.vhd|
+!i113 1
+R15
+R16
+Apipo_5arch
+R5
+R6
+Z408 DEx4 work 6 pipo_5 0 22 gMV5IYK?e8UlFWRQ0dkCA0
+l28
+L15
+VP:j@;;4]3F42;Gc60j8>[1
+!s100 1ETd10lGSAzJ:GBbCZGaI1
+R10
+32
+R404
+!i10b 1
+R405
+R406
+R407
+!i113 1
+R15
+R16
+Epipo_6
+Z409 w1657304963
+R5
+R6
+R7
+Z410 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Pipo_6.vhd
+Z411 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Pipo_6.vhd
+l0
+L4
+V5jU>HzE7T2bR9?f;ELEMS2
+!s100 NM]dimXTFPK?K?DUQfEo02
+R10
+32
+R404
+!i10b 1
+Z412 !s108 1657512679.506000
+Z413 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Pipo_6.vhd|
+Z414 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Pipo_6.vhd|
+!i113 1
+R15
+R16
+Apipo_6arch
+R5
+R6
+Z415 DEx4 work 6 pipo_6 0 22 5jU>HzE7T2bR9?f;ELEMS2
+l28
+L15
+V@SAATTaXkOB6hPWW0_9HQ3
+!s100 icG^4Ym_[n[lEKHE1L8@l1
+R10
+32
+R404
+!i10b 1
+R412
+R413
+R414
+!i113 1
+R15
+R16
+Epipo_7
+Z416 w1657304957
+R5
+R6
+R7
+Z417 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Pipo_7.vhd
+Z418 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Pipo_7.vhd
+l0
+L4
+V1CQhZSlcWad;7QO>CUI7H2
+!s100 haYZW7<:6z=ojhCj8dYgI1
+R10
+32
+R404
+!i10b 1
+Z419 !s108 1657512679.889000
+Z420 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Pipo_7.vhd|
+Z421 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Pipo_7.vhd|
+!i113 1
+R15
+R16
+Apipo_7arch
+R5
+R6
+Z422 DEx4 work 6 pipo_7 0 22 1CQhZSlcWad;7QO>CUI7H2
+l28
+L15
+VD1Z8a65;]QSP>FR662>jQ1
+!s100 LXLFJGeJ?Ol1UY>DE7iZB2
+R10
+32
+R404
+!i10b 1
+R419
+R420
+R421
+!i113 1
+R15
+R16
+Epipo_8
+Z423 w1657304950
+R5
+R6
+R7
+Z424 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Pipo_8.vhd
+Z425 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Pipo_8.vhd
+l0
+L4
+VfQnBe2dg^gHA9nCX`UZUJ1
+!s100 ]R`cXK8>cXU?RAJjizC[j1
+R10
+32
+Z426 !s110 1657512680
+!i10b 1
+Z427 !s108 1657512680.300000
+Z428 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Pipo_8.vhd|
+Z429 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Pipo_8.vhd|
+!i113 1
+R15
+R16
+Apipo_8arch
+R5
+R6
+Z430 DEx4 work 6 pipo_8 0 22 fQnBe2dg^gHA9nCX`UZUJ1
+l28
+L15
+VLCj4z@zdkNNfOhSal5Vi=2
+!s100 4z`5c34GdJ@=S;>lSBZX10
+R10
+32
+R426
+!i10b 1
+R427
+R428
+R429
+!i113 1
+R15
+R16
+Eprcapaoculta
+Z431 w1656761050
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+Z432 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/PrCapaOculta.vhd
+Z433 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/PrCapaOculta.vhd
+l0
+L6
+Vb3SQoIeTSALjP>90EkU:n0
+!s100 omOi_1`3W;nd1ojbC9?SE1
+R10
+32
+R426
+!i10b 1
+Z434 !s108 1657512680.709000
+Z435 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/PrCapaOculta.vhd|
+Z436 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/PrCapaOculta.vhd|
+!i113 1
+R15
+R16
+Afunctional
+R217
+Z437 DEx4 work 8 ram2capa 0 22 FUza2XbnD4k4oNBMEMInj2
+R241
+Z438 DEx4 work 9 relucapa1 0 22 CCj6gbj[]SVG@IXDmhgkz2
+Z439 DEx4 work 12 sumadortotal 0 22 LQ[fXS;dL2HI]5n^Z?oT90
+Z440 DEx4 work 7 regtemp 0 22 a07h=Je]2=Xe05:W5BREB2
+Z441 DEx4 work 7 sumador 0 22 `LdA[93LccTYnm@DT=R;91
+R320
+Z442 DEx4 work 9 regoutrom 0 22 <VH9Zol3h<C:D5g9k?a;k0
+Z443 DEx4 work 9 regoutram 0 22 S4b=3Da]>lVe1ehQkBk=c0
+Z444 DEx4 work 10 romimpares 0 22 GDc[1T]j0Pc_UVAA7_U1J2
+R263
+Z445 DEx4 work 8 rompares 0 22 aJ?oT_T;5X<o^3aRRNiS_3
+R239
+R232
+R137
+R1
+R2
+R3
+R4
+R5
+R6
+R18
+l86
+L26
+V=??S^?i458lzzm3jXI^<@1
+!s100 6j8XSI:=e<E[`kbNi;5GC3
+R10
+32
+R426
+!i10b 1
+R434
+R435
+R436
+!i113 1
+R15
+R16
+Eram1
+Z446 w1654819618
+R263
+R5
+R6
+R7
+Z447 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM1.vhd
+Z448 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM1.vhd
+l0
+L43
+VWSLDB>S@0X_Z`29hKZh@E2
+!s100 =>75_Fa?KGzb6lI^C6W<X2
+R10
+32
+Z449 !s110 1657512684
+!i10b 1
+Z450 !s108 1657512684.490000
+Z451 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM1.vhd|
+Z452 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM1.vhd|
+!i113 1
+R15
+R16
+Asyn
+R263
+R5
+R6
+Z453 DEx4 work 4 ram1 0 22 WSLDB>S@0X_Z`29hKZh@E2
+l61
+L57
+VEP>F;dmG>I^3NO6Yzf8Q]1
+!s100 OdY8RBaB9o:cfSdJ>[h5N0
+R10
+32
+R449
+!i10b 1
+R450
+R451
+R452
+!i113 1
+R15
+R16
+Eram2
+Z454 w1654819604
+R263
+R5
+R6
+R7
+Z455 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM2.vhd
+Z456 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM2.vhd
+l0
+L43
+VYM6zHj0klkkRaRg5Bd2U_3
+!s100 nE;N=3nzf3<]1bJXDDVG<3
+R10
+32
+R449
+!i10b 1
+Z457 !s108 1657512684.898000
+Z458 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM2.vhd|
+Z459 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM2.vhd|
+!i113 1
+R15
+R16
+Asyn
+R263
+R5
+R6
+Z460 DEx4 work 4 ram2 0 22 YM6zHj0klkkRaRg5Bd2U_3
+l61
+L57
+V6@20lI?EUHPD1>7:DzZ>j0
+!s100 VG25ZJ=<oYI@zKGBh^NYX0
+R10
+32
+R449
+!i10b 1
+R457
+R458
+R459
+!i113 1
+R15
+R16
+Eram2capa
+Z461 w1656568590
+R263
+R5
+R6
+R7
+Z462 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM2Capa.vhd
+Z463 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM2Capa.vhd
+l0
+L43
+VFUza2XbnD4k4oNBMEMInj2
+!s100 FN9ozBMjCz@Jk<54kXj_91
+R10
+32
+Z464 !s110 1657512685
+!i10b 1
+Z465 !s108 1657512685.316000
+Z466 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM2Capa.vhd|
+Z467 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM2Capa.vhd|
+!i113 1
+R15
+R16
+Asyn
+R263
+R5
+R6
+R437
+l61
+L57
+VSzZAUGz^BmkSnN>e5`goz0
+!s100 CFcId]RMajj;6k@4NHm>@3
+R10
+32
+R464
+!i10b 1
+R465
+R466
+R467
+!i113 1
+R15
+R16
+Eram_abdom
+Z468 w1651940094
+R263
+R5
+R6
+R7
+Z469 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM_Abdom.vhd
+Z470 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM_Abdom.vhd
+l0
+L43
+V0?A]eCl91go20Rj:TEgA92
+!s100 Laem9lN:k[82^Z<jhV09I1
+R10
+32
+Z471 !s110 1657512681
+!i10b 1
+Z472 !s108 1657512681.181000
+Z473 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM_Abdom.vhd|
+Z474 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM_Abdom.vhd|
+!i113 1
+R15
+R16
+Asyn
+R263
+R5
+R6
+R284
+l61
+L57
+VFg[oKlAdmm^K158d43Gl10
+!s100 kOOW<dDSUgloTe6VDXEYn0
+R10
+32
+R471
+!i10b 1
+R472
+R473
+R474
+!i113 1
+R15
+R16
+Eram_c4a1
+Z475 w1651942718
+R263
+R5
+R6
+R7
+Z476 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM_C4A1.vhd
+Z477 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM_C4A1.vhd
+l0
+L43
+VlPLm403=ljckDQbLT[L]Z3
+!s100 Qom003RmE2;7]cNEgzeWl1
+R10
+32
+R471
+!i10b 1
+Z478 !s108 1657512681.590000
+Z479 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM_C4A1.vhd|
+Z480 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM_C4A1.vhd|
+!i113 1
+R15
+R16
+Asyn
+R263
+R5
+R6
+R278
+l61
+L57
+VNl5gXS9fR:D;N?DEn1L@W3
+!s100 zXeT0e=za9aOl^YnlSB@;0
+R10
+32
+R471
+!i10b 1
+R478
+R479
+R480
+!i113 1
+R15
+R16
+Eram_f_aire
+Z481 w1651940926
+R263
+R5
+R6
+R7
+Z482 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM_F_Aire.vhd
+Z483 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM_F_Aire.vhd
+l0
+L43
+VDh74gd71]d5=^U]DLbOA[0
+!s100 0;[dT;>Be;69G^3XJX`3T3
+R10
+32
+Z484 !s110 1657512682
+!i10b 1
+Z485 !s108 1657512682.002000
+Z486 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM_F_Aire.vhd|
+Z487 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM_F_Aire.vhd|
+!i113 1
+R15
+R16
+Asyn
+R263
+R5
+R6
+R283
+l61
+L57
+VV^[>SoGQF^;k4RzXW;nK@1
+!s100 :ejR929U6;18nlgdON0lS3
+R10
+32
+R484
+!i10b 1
+R485
+R486
+R487
+!i113 1
+R15
+R16
+Eram_i_ronq
+Z488 w1652317580
+R263
+R5
+R6
+R7
+Z489 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM_I_Ronq.vhd
+Z490 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM_I_Ronq.vhd
+l0
+L43
+VbNCIc9?VUZ2DQj^GTf9Q?0
+!s100 ?]`^C^Q=>h0e@?VZ;R8^i3
+R10
+32
+R484
+!i10b 1
+Z491 !s108 1657512682.431000
+Z492 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM_I_Ronq.vhd|
+Z493 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM_I_Ronq.vhd|
+!i113 1
+R15
+R16
+Asyn
+R263
+R5
+R6
+R280
+l61
+L57
+Vg5l<dkZMQ3ZjU6CZ=WAFO1
+!s100 9USAhjPFGaD6TP8O2PKB?0
+R10
+32
+R484
+!i10b 1
+R491
+R492
+R493
+!i113 1
+R15
+R16
+Eram_o2a1
+Z494 w1651942774
+R263
+R5
+R6
+R7
+Z495 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM_O2A1.vhd
+Z496 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM_O2A1.vhd
+l0
+L43
+V:h4JTciUa0TO7WVEUn1d11
+!s100 Dhm98TXbW[?[B;MNEj7UA2
+R10
+32
+R484
+!i10b 1
+Z497 !s108 1657512682.849000
+Z498 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM_O2A1.vhd|
+Z499 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM_O2A1.vhd|
+!i113 1
+R15
+R16
+Asyn
+R263
+R5
+R6
+R277
+l61
+L57
+V24JATWT;:X1^iAMIH3AGP3
+!s100 8XjOZj6ZK9AIh6>O9okga2
+R10
+32
+R484
+!i10b 1
+R497
+R498
+R499
+!i113 1
+R15
+R16
+Eram_ppg
+Z500 w1651941010
+R263
+R5
+R6
+R7
+Z501 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM_PPG.vhd
+Z502 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM_PPG.vhd
+l0
+L43
+VjX>zg=V4jEI;XMXXRD3dd1
+!s100 >zC[OB]b4A]:^F<FY1BlO1
+R10
+32
+Z503 !s110 1657512683
+!i10b 1
+Z504 !s108 1657512683.249000
+Z505 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM_PPG.vhd|
+Z506 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM_PPG.vhd|
+!i113 1
+R15
+R16
+Asyn
+R263
+R5
+R6
+R282
+l61
+L57
+V@AD82EbG3>8=kZ003Be>>2
+!s100 9]>iOg0;UH98IS9E>P;e=0
+R10
+32
+R503
+!i10b 1
+R504
+R505
+R506
+!i113 1
+R15
+R16
+Eram_spo2
+Z507 w1651942672
+R263
+R5
+R6
+R7
+Z508 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM_SPO2.vhd
+Z509 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM_SPO2.vhd
+l0
+L43
+V@`MiCC<L>0gNZ:Lb]OSoX0
+!s100 Zc3XG3`7<OdhR=I[V0^^K0
+R10
+32
+R503
+!i10b 1
+Z510 !s108 1657512683.649000
+Z511 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM_SPO2.vhd|
+Z512 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM_SPO2.vhd|
+!i113 1
+R15
+R16
+Asyn
+R263
+R5
+R6
+R279
+l61
+L57
+VeZJZ0WHzec>n:_oCGz30=1
+!s100 W^IY8CZ1UM8mbNU;Wk^N31
+R10
+32
+R503
+!i10b 1
+R510
+R511
+R512
+!i113 1
+R15
+R16
+Eram_torax
+Z513 w1651941222
+R263
+R5
+R6
+R7
+Z514 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM_Torax.vhd
+Z515 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM_Torax.vhd
+l0
+L43
+Vzlo748SOnmnWWSHZnZb?R1
+!s100 K^lOTBE>T>DH@^JXILS<_1
+R10
+32
+R449
+!i10b 1
+Z516 !s108 1657512684.070000
+Z517 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM_Torax.vhd|
+Z518 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RAM_Torax.vhd|
+!i113 1
+R15
+R16
+Asyn
+R263
+R5
+R6
+R281
+l61
+L57
+Vmi8M1WYGEkk>L7G0R<RZA0
+!s100 0299QJ6alMllmbVjMk[k=0
+R10
+32
+R449
+!i10b 1
+R516
+R517
+R518
+!i113 1
+R15
+R16
+Erdramcount
+Z519 w1657307018
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+Z520 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RdRAMCount.vhd
+Z521 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RdRAMCount.vhd
+l0
+L13
+VW^>DHh9PlnImiLRXOTEC62
+!s100 b=DQWo27=BC:Rb=4;a@jH1
+R10
+32
+R464
+!i10b 1
+Z522 !s108 1657512685.717000
+Z523 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RdRAMCount.vhd|
+Z524 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RdRAMCount.vhd|
+!i113 1
+R15
+R16
+Ardramcountarch
+R1
+R2
+R3
+R4
+R5
+R6
+Z525 DEx4 work 10 rdramcount 0 22 W^>DHh9PlnImiLRXOTEC62
+l39
+L23
+V3TcBjSXC[__7V[XEfWhT41
+!s100 AFUAbz`KkYP[e202=Uoo42
+R10
+32
+R464
+!i10b 1
+R522
+R523
+R524
+!i113 1
+R15
+R16
+Erdromcount
+Z526 w1656651274
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+Z527 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RdROMCount.vhd
+Z528 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RdROMCount.vhd
+l0
+L13
+V4na<>bBIUXj<4N9SD_V`a2
+!s100 WSBZ:DV[:dlX;h;]N3A=O2
+R10
+32
+Z529 !s110 1657512686
+!i10b 1
+Z530 !s108 1657512686.109000
+Z531 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RdROMCount.vhd|
+Z532 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RdROMCount.vhd|
+!i113 1
+R15
+R16
+Ardromcountarch
+R1
+R2
+R3
+R4
+R5
+R6
+DEx4 work 10 rdromcount 0 22 4na<>bBIUXj<4N9SD_V`a2
+l38
+L23
+VPUDb1zn965_3>c[?]C1KK0
+!s100 8`JFVZT`CO[kdDU`oMTJ]3
+R10
+32
+R529
+!i10b 1
+R530
+R531
+R532
+!i113 1
+R15
+R16
+Ereg_0
+Z533 w1657305132
+R5
+R6
+R7
+Z534 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Reg_0.vhd
+Z535 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Reg_0.vhd
+l0
+L4
+V`=`??1KLXg1=J=Qcj0LCB0
+!s100 3l?;6=DSMe6KKJhFOXB<@0
+R10
+32
+R529
+!i10b 1
+Z536 !s108 1657512686.543000
+Z537 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Reg_0.vhd|
+Z538 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Reg_0.vhd|
+!i113 1
+R15
+R16
+Areg_0arch
+R5
+R6
+Z539 DEx4 work 5 reg_0 0 22 `=`??1KLXg1=J=Qcj0LCB0
+l31
+L17
+VlNGO7ojR?lP<bX]04Z@z63
+!s100 ;U?Jz<:`dI60B;lz8^h9F0
+R10
+32
+R529
+!i10b 1
+R536
+R537
+R538
+!i113 1
+R15
+R16
+Ereg_desp_tb
+Z540 w1651243968
+R5
+R6
+R7
+Z541 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Reg_Desp_tb.vhd
+Z542 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Reg_Desp_tb.vhd
+l0
+L30
+VUmID`RA3TN>[oUgP2ISzI0
+!s100 SEHkIzdCUHcGQe3gjYX0R2
+R10
+32
+R529
+!i10b 1
+Z543 !s108 1657512686.928000
+Z544 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Reg_Desp_tb.vhd|
+Z545 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Reg_Desp_tb.vhd|
+!i113 1
+R15
+R16
+Aregistrodecorrimientos_arch
+Z546 DEx4 work 22 registrodecorrimientos 0 22 jMeh<DiDULFinlEJ<;fEB2
+R5
+R6
+DEx4 work 11 reg_desp_tb 0 22 UmID`RA3TN>[oUgP2ISzI0
+l45
+L32
+VPJhG:KY8T`I^i<A0:IYD?3
+!s100 QM7zaT^P7WgoKJb84V86A2
+R10
+32
+R529
+!i10b 1
+R543
+R544
+R545
+!i113 1
+R15
+R16
+Eregistro
+Z547 w1654805994
+R5
+R6
+R7
+Z548 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro.vhd
+Z549 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro.vhd
+l0
+L5
+V`>`@EGbOdX?zGAUc]O=XS1
+!s100 oTIP^:eR><Iff=cL492XR2
+R10
+32
+Z550 !s110 1657512687
+!i10b 1
+Z551 !s108 1657512687.311000
+Z552 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro.vhd|
+Z553 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro.vhd|
+!i113 1
+R15
+R16
+Aregistro_arch
+R5
+R6
+R248
+l18
+L16
+VV20CPa_3M4DRX9JiD1J@j2
+!s100 j5Uc8g_^QVWc4S_PLa1YA2
+R10
+32
+R550
+!i10b 1
+R551
+R552
+R553
+!i113 1
+R15
+R16
+Eregistro8
+Z554 w1656558656
+R5
+R6
+R7
+Z555 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro8.vhd
+Z556 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro8.vhd
+l0
+L5
+V3[>zHj^NPjIWM^jW_@z9F0
+!s100 c8V=70QbcH_UV9cd;b=SW0
+R10
+32
+Z557 !s110 1657512693
+!i10b 1
+Z558 !s108 1657512693.702000
+Z559 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro8.vhd|
+Z560 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro8.vhd|
+!i113 1
+R15
+R16
+Aregistro_arch
+R5
+R6
+R251
+l18
+L16
+V`GH[h^zEb>[Rg=ELSS_d52
+!s100 5j]SUK?[@]mM:?n04lZYa3
+R10
+32
+R557
+!i10b 1
+R558
+R559
+R560
+!i113 1
+R15
+R16
+Eregistro_1
+Z561 w1651538872
+R5
+R6
+R7
+Z562 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_1.vhd
+Z563 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_1.vhd
+l0
+L4
+Vj]aQUSD3`J8kU4XYKcjC_1
+!s100 N0M:8Ifj3VlJ^0oP7Gaei0
+R10
+32
+R550
+!i10b 1
+Z564 !s108 1657512687.705000
+Z565 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_1.vhd|
+Z566 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_1.vhd|
+!i113 1
+R15
+R16
+Aregistro_1arch
+R5
+R6
+Z567 DEx4 work 10 registro_1 0 22 j]aQUSD3`J8kU4XYKcjC_1
+l17
+L15
+V?gUf9Af3IS6]4>TzSi]Yb1
+!s100 >Y<eV00chH;j8S@oe@B@M3
+R10
+32
+R550
+!i10b 1
+R564
+R565
+R566
+!i113 1
+R15
+R16
+Eregistro_2
+Z568 w1651538866
+R5
+R6
+R7
+Z569 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_2.vhd
+Z570 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_2.vhd
+l0
+L4
+VlmFXUSUafzjb=kNGjUbfN1
+!s100 F:nf]lTdGi[9zUS1=YOVa1
+R10
+32
+Z571 !s110 1657512688
+!i10b 1
+Z572 !s108 1657512688.083000
+Z573 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_2.vhd|
+Z574 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_2.vhd|
+!i113 1
+R15
+R16
+Aregistro_2arch
+R5
+R6
+Z575 DEx4 work 10 registro_2 0 22 lmFXUSUafzjb=kNGjUbfN1
+l17
+L15
+VHLLD?UG5eGTN7IcBPnN6C3
+!s100 aRBeYIKFka]Eah5O=[U^_0
+R10
+32
+R571
+!i10b 1
+R572
+R573
+R574
+!i113 1
+R15
+R16
+Eregistro_3
+Z576 w1651538858
+R5
+R6
+R7
+Z577 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_3.vhd
+Z578 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_3.vhd
+l0
+L4
+V94[YC?WQ;m<f54`aJiOY91
+!s100 XK_DgWMhcEMB0T2WNYC4Y1
+R10
+32
+R571
+!i10b 1
+Z579 !s108 1657512688.478000
+Z580 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_3.vhd|
+Z581 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_3.vhd|
+!i113 1
+R15
+R16
+Aregistro_3arch
+R5
+R6
+Z582 DEx4 work 10 registro_3 0 22 94[YC?WQ;m<f54`aJiOY91
+l17
+L15
+VP@D2=lKUlVTVO;645A6^V3
+!s100 5=]7I>N1ZDCZE:0_dKj?L1
+R10
+32
+R571
+!i10b 1
+R579
+R580
+R581
+!i113 1
+R15
+R16
+Eregistro_4
+Z583 w1651538850
+R5
+R6
+R7
+Z584 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_4.vhd
+Z585 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_4.vhd
+l0
+L4
+Vb^_M>2H>7e2>XQ2ae8K:a1
+!s100 :CY@:>o3=oDQc2ldA_ChH3
+R10
+32
+R571
+!i10b 1
+Z586 !s108 1657512688.854000
+Z587 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_4.vhd|
+Z588 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_4.vhd|
+!i113 1
+R15
+R16
+Aregistro_4arch
+R5
+R6
+Z589 DEx4 work 10 registro_4 0 22 b^_M>2H>7e2>XQ2ae8K:a1
+l17
+L15
+Vm7DLSHYa^HSV70RMVM:5E2
+!s100 554R1b4o?z8L;dZi]G_703
+R10
+32
+R571
+!i10b 1
+R586
+R587
+R588
+!i113 1
+R15
+R16
+Eregistro_5
+Z590 w1651538842
+R5
+R6
+R7
+Z591 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_5.vhd
+Z592 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_5.vhd
+l0
+L4
+VzlI3a@c<:`^OFQ4eXZ<m80
+!s100 2mO7]:`CBV^V2nz52I7R<0
+R10
+32
+Z593 !s110 1657512689
+!i10b 1
+Z594 !s108 1657512689.240000
+Z595 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_5.vhd|
+Z596 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_5.vhd|
+!i113 1
+R15
+R16
+Aregistro_5arch
+R5
+R6
+Z597 DEx4 work 10 registro_5 0 22 zlI3a@c<:`^OFQ4eXZ<m80
+l17
+L15
+VVE7jkA^UK]Fm^kel2mM;N2
+!s100 NAmmz^@l;z@2jBYa=ORD50
+R10
+32
+R593
+!i10b 1
+R594
+R595
+R596
+!i113 1
+R15
+R16
+Eregistro_6
+Z598 w1651538834
+R5
+R6
+R7
+Z599 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_6.vhd
+Z600 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_6.vhd
+l0
+L4
+Vei7lblziS083h>Efd0c_j0
+!s100 zk^N<6oHQDTRiZBhnDhAP3
+R10
+32
+R593
+!i10b 1
+Z601 !s108 1657512689.618000
+Z602 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_6.vhd|
+Z603 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_6.vhd|
+!i113 1
+R15
+R16
+Aregistro_6arch
+R5
+R6
+Z604 DEx4 work 10 registro_6 0 22 ei7lblziS083h>Efd0c_j0
+l17
+L15
+V^`TWoN6=]ZO5bAb6QLJYY3
+!s100 X]gBAbJJJ[^PoCU^fXQ2[0
+R10
+32
+R593
+!i10b 1
+R601
+R602
+R603
+!i113 1
+R15
+R16
+Eregistro_7
+Z605 w1651538820
+R5
+R6
+R7
+Z606 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_7.vhd
+Z607 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_7.vhd
+l0
+L4
+VHWXBomXSG@_^ncFKKzMG32
+!s100 d:K9N;;_keKZkD[^BBnQJ3
+R10
+32
+Z608 !s110 1657512690
+!i10b 1
+Z609 !s108 1657512689.988000
+Z610 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_7.vhd|
+Z611 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_7.vhd|
+!i113 1
+R15
+R16
+Aregistro_7arch
+R5
+R6
+Z612 DEx4 work 10 registro_7 0 22 HWXBomXSG@_^ncFKKzMG32
+l17
+L15
+VbM1N<3Aa0_JMkl:N;T@h]2
+!s100 Yc[Xmh[`Yf`XS<d?i`?`60
+R10
+32
+R608
+!i10b 1
+R609
+R610
+R611
+!i113 1
+R15
+R16
+Eregistro_8
+Z613 w1651538796
+R5
+R6
+R7
+Z614 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_8.vhd
+Z615 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_8.vhd
+l0
+L4
+VT2I4kZ2C]LE_QAF95k4::3
+!s100 hZ=[PIB^AUP>Tgofi7oI?0
+R10
+32
+R608
+!i10b 1
+Z616 !s108 1657512690.584000
+Z617 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_8.vhd|
+Z618 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_8.vhd|
+!i113 1
+R15
+R16
+Aregistro_8arch
+R5
+R6
+Z619 DEx4 work 10 registro_8 0 22 T2I4kZ2C]LE_QAF95k4::3
+l28
+L15
+V_2;0m6KA70aQQ>@25QNen3
+!s100 KH^5CIB:KDP;0CQzG[mC01
+R10
+32
+R608
+!i10b 1
+R616
+R617
+R618
+!i113 1
+R15
+R16
+Eregistro_rom_1in
+Z620 w1655095160
+R5
+R6
+R7
+Z621 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_ROM_1in.vhd
+Z622 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_ROM_1in.vhd
+l0
+L5
+VDRB2CcEJ27J2Dl5`_G7]@0
+!s100 XM:bzh8CYk2A:;g9EicAb2
+R10
+32
+Z623 !s110 1657512691
+!i10b 1
+Z624 !s108 1657512690.982000
+Z625 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_ROM_1in.vhd|
+Z626 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_ROM_1in.vhd|
+!i113 1
+R15
+R16
+Aregistro_arch
+R5
+R6
+R258
+l18
+L16
+V1>SeK4>U9kZQ;f<i_j`NR1
+!s100 :S<5SWZPOMNY=VDjkQnH]3
+R10
+32
+R623
+!i10b 1
+R624
+R625
+R626
+!i113 1
+R15
+R16
+Eregistro_rom_2in
+Z627 w1656308586
+R5
+R6
+R7
+Z628 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_ROM_2in.vhd
+Z629 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_ROM_2in.vhd
+l0
+L5
+VDW5INb_<6I1b7`5c4AS1C2
+!s100 eLXE;ZVl68XZmgdbRR>>12
+R10
+32
+R623
+!i10b 1
+Z630 !s108 1657512691.357000
+Z631 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_ROM_2in.vhd|
+Z632 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_ROM_2in.vhd|
+!i113 1
+R15
+R16
+Aregistro_arch
+R5
+R6
+R257
+l20
+L18
+V1o4jgD52Y>U;j_MT5o>E_0
+!s100 RanE8AZ]0F<B3N:;m6]<>3
+R10
+32
+R623
+!i10b 1
+R630
+R631
+R632
+!i113 1
+R15
+R16
+Eregistro_rom_3in
+Z633 w1656309584
+R5
+R6
+R7
+Z634 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_ROM_3in.vhd
+Z635 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_ROM_3in.vhd
+l0
+L5
+V7zdgjeR^E=?GlFeQ`ao^z2
+!s100 Z@e@FM2J5LPR:F7zXFE2D0
+R10
+32
+R623
+!i10b 1
+Z636 !s108 1657512691.749000
+Z637 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_ROM_3in.vhd|
+Z638 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_ROM_3in.vhd|
+!i113 1
+R15
+R16
+Aregistro_arch
+R5
+R6
+R256
+l22
+L20
+VaNCHmo5dPjJ1kSH7M2;:m2
+!s100 >b_i_QTzXhoQE1FaFWeGm3
+R10
+32
+R623
+!i10b 1
+R636
+R637
+R638
+!i113 1
+R15
+R16
+Eregistro_rom_4in
+Z639 w1656309566
+R5
+R6
+R7
+Z640 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_ROM_4in.vhd
+Z641 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_ROM_4in.vhd
+l0
+L5
+V>9gB3Oe=e>0WVW`O7Lo]R1
+!s100 d0IAVf[o>:W:7;ji<W09]2
+R10
+32
+Z642 !s110 1657512692
+!i10b 1
+Z643 !s108 1657512692.131000
+Z644 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_ROM_4in.vhd|
+Z645 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_ROM_4in.vhd|
+!i113 1
+R15
+R16
+Aregistro_arch
+R5
+R6
+R255
+l24
+L22
+VLmh?AA[]P27J6?:o2hmT?3
+!s100 lY5>J[z8cCdHFU1Y[iOUe3
+R10
+32
+R642
+!i10b 1
+R643
+R644
+R645
+!i113 1
+R15
+R16
+Eregistro_rom_5in
+Z646 w1656312716
+R5
+R6
+R7
+Z647 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_ROM_5in.vhd
+Z648 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_ROM_5in.vhd
+l0
+L5
+VEOYMLbD7CWXL`gPgkS3lz3
+!s100 3aN05:oog=>IF5P5=]=8M3
+R10
+32
+R642
+!i10b 1
+Z649 !s108 1657512692.541000
+Z650 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_ROM_5in.vhd|
+Z651 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_ROM_5in.vhd|
+!i113 1
+R15
+R16
+Aregistro_arch
+R5
+R6
+R254
+l25
+L23
+V0nbdPk5fTfok=HmD8JDWQ2
+!s100 lkbFz]><e_S`9;oBl=hG<3
+R10
+32
+R642
+!i10b 1
+R649
+R650
+R651
+!i113 1
+R15
+R16
+Eregistro_rom_6in
+Z652 w1656312748
+R5
+R6
+R7
+Z653 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_ROM_6in.vhd
+Z654 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_ROM_6in.vhd
+l0
+L5
+V`B<]0Idh?1SVK?a<<D?=G0
+!s100 [TMZW7=hE[Y]nMV0nRRZa0
+R10
+32
+R642
+!i10b 1
+Z655 !s108 1657512692.942000
+Z656 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_ROM_6in.vhd|
+Z657 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_ROM_6in.vhd|
+!i113 1
+R15
+R16
+Aregistro_arch
+R5
+R6
+R253
+l24
+L22
+V@o=hR6cWTHjjkI66S=hNS0
+!s100 a7Ei>D20:Ve[QXd[J<3[61
+R10
+32
+R642
+!i10b 1
+R655
+R656
+R657
+!i113 1
+R15
+R16
+Eregistro_rom_7in
+Z658 w1656312788
+R5
+R6
+R7
+Z659 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_ROM_7in.vhd
+Z660 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_ROM_7in.vhd
+l0
+L5
+VXQ;`T_;4H0WazoK=0DNf^3
+!s100 @Z:3he^Oz3YS_JA]V<=:m2
+R10
+32
+R557
+!i10b 1
+Z661 !s108 1657512693.324000
+Z662 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_ROM_7in.vhd|
+Z663 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Registro_ROM_7in.vhd|
+!i113 1
+R15
+R16
+Aregistro_arch
+R5
+R6
+R252
+l23
+L21
+V6fCG`WGoSPK;ITmTc[PEh0
+!s100 Djgf5]3Cdj7X`8R^3V>XC3
+R10
+32
+R557
+!i10b 1
+R661
+R662
+R663
+!i113 1
+R15
+R16
+Eregistrodecorrimientos
+Z664 w1651273700
+R5
+R6
+R7
+Z665 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RegistroDeCorrimientos.vhd
+Z666 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RegistroDeCorrimientos.vhd
+l0
+L5
+VjMeh<DiDULFinlEJ<;fEB2
+!s100 dAK5][Q;b]oN90X7Uk]RO2
+R10
+32
+Z667 !s110 1657512694
+!i10b 1
+Z668 !s108 1657512694.084000
+Z669 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RegistroDeCorrimientos.vhd|
+Z670 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RegistroDeCorrimientos.vhd|
+!i113 1
+R15
+R16
+Abehavior
+R5
+R6
+R546
+l20
+L17
+V[^BjPF60<1Q=MLS19QHN10
+!s100 khKDU>HU4;>@@VlC>=MO83
+R10
+32
+R667
+!i10b 1
+R668
+R669
+R670
+!i113 1
+R15
+R16
+Eregistrosram
+Z671 w1656786126
+R5
+R6
+R7
+Z672 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RegistrosRAM.vhd
+Z673 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RegistrosRAM.vhd
+l0
+L6
+VSzS2Y6?H_jBka3]1oRj`@3
+!s100 o7FKz_8d@cgUK]Fb8UI7l2
+R10
+32
+R667
+!i10b 1
+Z674 !s108 1657512694.488000
+Z675 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RegistrosRAM.vhd|
+Z676 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RegistrosRAM.vhd|
+!i113 1
+R15
+R16
+Afunctional
+R173
+R160
+R1
+R2
+R3
+R4
+R224
+R460
+R263
+R453
+R539
+R364
+R357
+R343
+R350
+R301
+R335
+R35
+R64
+R422
+R430
+R50
+R393
+R400
+R72
+R57
+R408
+R415
+R42
+R378
+R385
+R5
+R6
+R19
+l95
+L24
+V=VF7cS5ZkDl<40lo>Qij81
+!s100 hQlCO5Zl]^DI8MCBn@]341
+R10
+32
+R667
+!i10b 1
+R674
+R675
+R676
+!i113 1
+R15
+R16
+Eregistrosram_tb
+w1657512563
+R5
+R6
+R7
+8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RegistrosRAM_tb.vhd
+FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RegistrosRAM_tb.vhd
+l0
+L30
+VjhNY<n^P_LmJm;g^F@X622
+!s100 8E]AdGzi>CkIEBgOmzLfm3
+R10
+32
+Z677 !s110 1657512695
+!i10b 1
+!s108 1657512694.987000
+!s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RegistrosRAM_tb.vhd|
+!s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RegistrosRAM_tb.vhd|
+!i113 1
+R15
+R16
+Eregoutram
+Z678 w1655755542
+R5
+R6
+R7
+Z679 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RegOutRAM.vhd
+Z680 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RegOutRAM.vhd
+l0
+L4
+VS4b=3Da]>lVe1ehQkBk=c0
+!s100 5^JHRX:?8TkX^<74gldC@1
+R10
+32
+R677
+!i10b 1
+Z681 !s108 1657512695.080000
+Z682 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RegOutRAM.vhd|
+Z683 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RegOutRAM.vhd|
+!i113 1
+R15
+R16
+Aregoutramarch
+R5
+R6
+R443
+l31
+L17
+Vd_Wmn0SI1ac2;5PzOeIPc0
+!s100 W0SmaWSf^NS]CSLWdidbL3
+R10
+32
+R677
+!i10b 1
+R681
+R682
+R683
+!i113 1
+R15
+R16
+Eregoutrom
+Z684 w1656570592
+R5
+R6
+R7
+Z685 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RegOutROM.vhd
+Z686 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RegOutROM.vhd
+l0
+L4
+V<VH9Zol3h<C:D5g9k?a;k0
+!s100 aaHPO]zRmH<5l:fOX=]b_1
+R10
+32
+R677
+!i10b 1
+Z687 !s108 1657512695.469000
+Z688 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RegOutROM.vhd|
+Z689 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RegOutROM.vhd|
+!i113 1
+R15
+R16
+Aregoutromarch
+R5
+R6
+R442
+l31
+L17
+VG4G>YMF5A`EQ@?OFYJ9Wi0
+!s100 fGlc`Ucg;VleceV;iCYi92
+R10
+32
+R677
+!i10b 1
+R687
+R688
+R689
+!i113 1
+R15
+R16
+Eregtemp
+Z690 w1656570388
+R5
+R6
+R7
+Z691 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RegTemp.vhd
+Z692 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RegTemp.vhd
+l0
+L5
+Va07h=Je]2=Xe05:W5BREB2
+!s100 5C_@VM<?@VGTEWF[j=m2F3
+R10
+32
+R677
+!i10b 1
+Z693 !s108 1657512695.862000
+Z694 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RegTemp.vhd|
+Z695 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RegTemp.vhd|
+!i113 1
+R15
+R16
+Aregtemp_arch
+R5
+R6
+R440
+l18
+L16
+V5kk0ZgO;0?Y47Uea2;dH=1
+!s100 AR0R2>a=A4^<8H_[0Mcd;0
+R10
+32
+R677
+!i10b 1
+R693
+R694
+R695
+!i113 1
+R15
+R16
+Eregtempcapa2
+Z696 w1656749602
+R5
+R6
+R7
+Z697 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RegTempCapa2.vhd
+Z698 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RegTempCapa2.vhd
+l0
+L4
+VFS[X5RZDXC3AX0LCgP4Lc0
+!s100 MQ8V=0d_]E:ZVM8BII?jI3
+R10
+32
+Z699 !s110 1657512696
+!i10b 1
+Z700 !s108 1657512696.262000
+Z701 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RegTempCapa2.vhd|
+Z702 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RegTempCapa2.vhd|
+!i113 1
+R15
+R16
+Aregtempcapa2arch
+R5
+R6
+Z703 DEx4 work 12 regtempcapa2 0 22 FS[X5RZDXC3AX0LCgP4Lc0
+l31
+L17
+V2S]KXXdgj]3SjR7C1:F2e1
+!s100 AcPX<Y]_IKa7SLdgz?8@Y1
+R10
+32
+R699
+!i10b 1
+R700
+R701
+R702
+!i113 1
+R15
+R16
+Erelu
+Z704 w1657302739
+R241
+R5
+R6
+R7
+Z705 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RELU.vhd
+Z706 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RELU.vhd
+l0
+L7
+VG3n5gGVMkbOjZ?o^UlVNh3
+!s100 hi]>KI;KzcdIEjS0O7NWh0
+R10
+32
+R699
+!i10b 1
+Z707 !s108 1657512696.672000
+Z708 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RELU.vhd|
+Z709 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/RELU.vhd|
+!i113 1
+R15
+R16
+Acasearch
+R241
+R5
+R6
+R247
+l19
+L16
+VIzRFO2BI25;LIPcmc;d1X2
+!s100 >ABlS8YLeTzXVe99jQ<AG3
+R10
+32
+R699
+!i10b 1
+R707
+R708
+R709
+!i113 1
+R15
+R16
+Erelucapa1
+Z710 w1657302745
+R241
+R5
+R6
+R7
+Z711 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/reLUCapa1.vhd
+Z712 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/reLUCapa1.vhd
+l0
+L7
+VCCj6gbj[]SVG@IXDmhgkz2
+!s100 34Ek;09iF^:3BXhfmKNS;0
+R10
+32
+Z713 !s110 1657512697
+!i10b 1
+Z714 !s108 1657512697.078000
+Z715 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/reLUCapa1.vhd|
+Z716 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/reLUCapa1.vhd|
+!i113 1
+R15
+R16
+Acasearch
+R241
+R5
+R6
+R438
+l19
+L16
+VRBng4A=877hHO8J04]h]X3
+!s100 5]C]VI_1fbo=20JKF7N^z1
+R10
+32
+R713
+!i10b 1
+R714
+R715
+R716
+!i113 1
+R15
+R16
+Erom_filtro
+Z717 w1655945938
+R263
+R5
+R6
+R7
+Z718 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ROM_Filtro.vhd
+Z719 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ROM_Filtro.vhd
+l0
+L43
+VMH3>5Yh@ko2jD42BfQjT03
+!s100 b1ZFO_V>L6zXO78VAMe[L2
+R10
+32
+R713
+!i10b 1
+Z720 !s108 1657512697.478000
+Z721 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ROM_Filtro.vhd|
+Z722 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ROM_Filtro.vhd|
+!i113 1
+R15
+R16
+Asyn
+R263
+R5
+R6
+DEx4 work 10 rom_filtro 0 22 MH3>5Yh@ko2jD42BfQjT03
+l58
+L54
+VAhY5NFN90`NkMdI19WG0Y0
+!s100 oBChOiTN9eHh^mB@o[@d@3
+R10
+32
+R713
+!i10b 1
+R720
+R721
+R722
+!i113 1
+R15
+R16
+Erom_filtro_1
+Z723 w1656470270
+R263
+R5
+R6
+R7
+Z724 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ROM_Filtro_1.vhd
+Z725 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ROM_Filtro_1.vhd
+l0
+L43
+VEP05MTQ9BB<K938YnaR]T0
+!s100 oXaOXNCL1o1DSaKS5i_H;0
+R10
+32
+R713
+!i10b 1
+Z726 !s108 1657512697.888000
+Z727 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ROM_Filtro_1.vhd|
+Z728 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ROM_Filtro_1.vhd|
+!i113 1
+R15
+R16
+Asyn
+R263
+R5
+R6
+R264
+l58
+L54
+VCP4_O8Ch?z02JMG;lXF:X3
+!s100 ?ZaMXm76:<WPMRH=EafbT1
+R10
+32
+R713
+!i10b 1
+R726
+R727
+R728
+!i113 1
+R15
+R16
+Erom_filtro_2
+Z729 w1656470294
+R263
+R5
+R6
+R7
+Z730 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ROM_Filtro_2.vhd
+Z731 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ROM_Filtro_2.vhd
+l0
+L43
+Vd>7ZRD:gdOTQg?Hm4JofS3
+!s100 L39`3TL3W1PzUllc:424e3
+R10
+32
+Z732 !s110 1657512698
+!i10b 1
+Z733 !s108 1657512698.322000
+Z734 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ROM_Filtro_2.vhd|
+Z735 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ROM_Filtro_2.vhd|
+!i113 1
+R15
+R16
+Asyn
+R263
+R5
+R6
+R262
+l58
+L54
+VJk<Q>80G;3;Wga9h7_==E0
+!s100 D1:_U[4_KU10dbOQdXO;70
+R10
+32
+R732
+!i10b 1
+R733
+R734
+R735
+!i113 1
+R15
+R16
+Erom_filtro_3
+Z736 w1656470310
+R263
+R5
+R6
+R7
+Z737 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ROM_Filtro_3.vhd
+Z738 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ROM_Filtro_3.vhd
+l0
+L43
+VeQBezdz2Vo8o[lCnZ:E>J0
+!s100 ZK95j3`ICP<hYL2HeTI4Z2
+R10
+32
+R732
+!i10b 1
+Z739 !s108 1657512698.770000
+Z740 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ROM_Filtro_3.vhd|
+Z741 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ROM_Filtro_3.vhd|
+!i113 1
+R15
+R16
+Asyn
+R263
+R5
+R6
+R261
+l58
+L54
+Vg7m74cPc^W1UZ_enOW8W;3
+!s100 KLD`KgfkkeQB3[PUoQanf0
+R10
+32
+R732
+!i10b 1
+R739
+R740
+R741
+!i113 1
+R15
+R16
+Erom_filtro_4
+Z742 w1656470328
+R263
+R5
+R6
+R7
+Z743 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ROM_Filtro_4.vhd
+Z744 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ROM_Filtro_4.vhd
+l0
+L43
+VFoFmVV^^fgng>gWnm_l;53
+!s100 z4IKWC>YmB9D@^OfV2kHV0
+R10
+32
+Z745 !s110 1657512699
+!i10b 1
+Z746 !s108 1657512699.179000
+Z747 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ROM_Filtro_4.vhd|
+Z748 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ROM_Filtro_4.vhd|
+!i113 1
+R15
+R16
+Asyn
+R263
+R5
+R6
+R260
+l58
+L54
+VC95C?9Qe4k8k@G`Z_P_UI3
+!s100 UD;lkm7]46<QlbMOB_n2@2
+R10
+32
+R745
+!i10b 1
+R746
+R747
+R748
+!i113 1
+R15
+R16
+Erom_filtro_5
+Z749 w1656470354
+R263
+R5
+R6
+R7
+Z750 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ROM_Filtro_5.vhd
+Z751 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ROM_Filtro_5.vhd
+l0
+L43
+V56m2hAgIfQ73bB0c5M8^L3
+!s100 am75I5cA;A:Wj2z_cJUV02
+R10
+32
+R745
+!i10b 1
+Z752 !s108 1657512699.580000
+Z753 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ROM_Filtro_5.vhd|
+Z754 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ROM_Filtro_5.vhd|
+!i113 1
+R15
+R16
+Asyn
+R263
+R5
+R6
+R259
+l58
+L54
+V3CYSZQQzl^<d3@Ck@QCM>1
+!s100 WaGRE:YU4LkHB4I1NB:om0
+R10
+32
+R745
+!i10b 1
+R752
+R753
+R754
+!i113 1
+R15
+R16
+Eromimpares
+Z755 w1656370792
+R263
+R5
+R6
+R7
+Z756 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ROMImpares.vhd
+Z757 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ROMImpares.vhd
+l0
+L43
+VGDc[1T]j0Pc_UVAA7_U1J2
+!s100 R_8Ue70PhaoQb=ZHPHTz01
+R10
+32
+Z758 !s110 1657512700
+!i10b 1
+Z759 !s108 1657512699.994000
+Z760 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ROMImpares.vhd|
+Z761 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ROMImpares.vhd|
+!i113 1
+R15
+R16
+Asyn
+R263
+R5
+R6
+R444
+l58
+L54
+VHdZMR94]>Cl<Ob>81=La40
+!s100 Nj@f849^ob6fVW<mfkMMO1
+R10
+32
+R758
+!i10b 1
+R759
+R760
+R761
+!i113 1
+R15
+R16
+Eromnohayapnea
+Z762 w1656747376
+R263
+R5
+R6
+R7
+Z763 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ROMNoHayApnea.vhd
+Z764 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ROMNoHayApnea.vhd
+l0
+L43
+Vg>JbBRN;P@H^5B2R2mzH71
+!s100 <I<@YoK00:2b<I`H=CVDA0
+R10
+32
+R758
+!i10b 1
+Z765 !s108 1657512700.429000
+Z766 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ROMNoHayApnea.vhd|
+Z767 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ROMNoHayApnea.vhd|
+!i113 1
+R15
+R16
+Asyn
+R263
+R5
+R6
+Z768 DEx4 work 13 romnohayapnea 0 22 g>JbBRN;P@H^5B2R2mzH71
+l58
+L54
+VkF3o]ZX4dlL>Z]Y:4a]:01
+!s100 ;oCng3mi=7G[X98K9P>z53
+R10
+32
+R758
+!i10b 1
+R765
+R766
+R767
+!i113 1
+R15
+R16
+Erompares
+Z769 w1656370734
+R263
+R5
+R6
+R7
+Z770 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ROMPares.vhd
+Z771 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ROMPares.vhd
+l0
+L43
+VaJ?oT_T;5X<o^3aRRNiS_3
+!s100 iciEBT2o<8bHR1m^>OcVa0
+R10
+32
+R758
+!i10b 1
+Z772 !s108 1657512700.839000
+Z773 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ROMPares.vhd|
+Z774 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ROMPares.vhd|
+!i113 1
+R15
+R16
+Asyn
+R263
+R5
+R6
+R445
+l58
+L54
+VKBK9dj2?6LN=O?lf;S7LA1
+!s100 ]CGl:^ziZlJme58ja_dJ42
+R10
+32
+R758
+!i10b 1
+R772
+R773
+R774
+!i113 1
+R15
+R16
+Eromsihayapnea
+Z775 w1656747302
+R263
+R5
+R6
+R7
+Z776 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ROMSiHayApnea.vhd
+Z777 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ROMSiHayApnea.vhd
+l0
+L43
+VVJOG?ih=N_4Y7T7Sn;o<e0
+!s100 1GfaZ9[e:4_bd6Afg>]jT0
+R10
+32
+Z778 !s110 1657512701
+!i10b 1
+Z779 !s108 1657512701.251000
+Z780 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ROMSiHayApnea.vhd|
+Z781 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/ROMSiHayApnea.vhd|
+!i113 1
+R15
+R16
+Asyn
+R263
+R5
+R6
+Z782 DEx4 work 13 romsihayapnea 0 22 VJOG?ih=N_4Y7T7Sn;o<e0
+l58
+L54
+Vk0BC5QO_T]=UlS2czb;]o2
+!s100 Ll]cZ1nY5H:88>F?G4Rl70
+R10
+32
+R778
+!i10b 1
+R779
+R780
+R781
+!i113 1
+R15
+R16
+Esecapaoculta
+Z783 w1656786274
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+Z784 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/SeCapaOculta.vhd
+Z785 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/SeCapaOculta.vhd
+l0
+L6
+VbBRZdi;5HZUJehifnnWMT2
+!s100 Oe7^jnABHj8`1g:JoSO^[1
+R10
+32
+R778
+!i10b 1
+Z786 !s108 1657512701.677000
+Z787 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/SeCapaOculta.vhd|
+Z788 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/SeCapaOculta.vhd|
+!i113 1
+R15
+R16
+Afunctional
+R241
+Z789 DEx4 work 7 softmax 0 22 7C0EO5V>WCo<zNzjJM7ec2
+R703
+Z790 DEx4 work 9 sum1capa2 0 22 B23D5f>h1:DNAJz6C>2=_0
+R299
+R768
+R263
+R782
+R525
+R145
+R1
+R2
+R3
+R4
+R5
+R6
+R17
+l57
+L23
+Vi0?FJd^_8XeFA_39QceVn3
+!s100 a:]2MA`@=EA5X82KGPXnn3
+R10
+32
+R778
+!i10b 1
+R786
+R787
+R788
+!i113 1
+R15
+R16
+Esoftmax
+Z791 w1656749288
+R241
+R5
+R6
+R7
+Z792 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Softmax.vhd
+Z793 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Softmax.vhd
+l0
+L5
+V7C0EO5V>WCo<zNzjJM7ec2
+!s100 obHH=Iie4U4U1S>_I8I:d0
+R10
+32
+Z794 !s110 1657512702
+!i10b 1
+Z795 !s108 1657512702.154000
+Z796 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Softmax.vhd|
+Z797 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Softmax.vhd|
+!i113 1
+R15
+R16
+Asoftmaxarch
+R241
+R5
+R6
+R789
+l33
+L17
+V^SEd@I[Wc2X:<=T>JenhW1
+!s100 5NFEGPBJXJ;klVAQL[G<X0
+R10
+32
+R794
+!i10b 1
+R795
+R796
+R797
+!i113 1
+R15
+R16
+Esum
+Z798 w1656577354
+R5
+R6
+R7
+Z799 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Sum.vhd
+Z800 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Sum.vhd
+l0
+L43
+Vz34dk@9D:IojHOl:InlPN3
+!s100 Q9F?g[ESezj?dB4h^2FUT1
+R10
+32
+R794
+!i10b 1
+Z801 !s108 1657512702.567000
+Z802 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Sum.vhd|
+Z803 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Sum.vhd|
+!i113 1
+R15
+R16
+Asyn
+R5
+R6
+R268
+l74
+L53
+VjkcOcY8>a9[ej^Y1dc69C3
+!s100 8EYf<2?zam?Z?;Va66DNO3
+R10
+32
+R794
+!i10b 1
+R801
+R802
+R803
+!i113 1
+R15
+R16
+Esum1capa2
+Z804 w1656657134
+R263
+R5
+R6
+R7
+Z805 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Sum1Capa2.vhd
+Z806 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Sum1Capa2.vhd
+l0
+L43
+VB23D5f>h1:DNAJz6C>2=_0
+!s100 TBT87:_eblbcfU8JG0NaI1
+R10
+32
+Z807 !s110 1657512704
+!i10b 1
+Z808 !s108 1657512704.314000
+Z809 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Sum1Capa2.vhd|
+Z810 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Sum1Capa2.vhd|
+!i113 1
+R15
+R16
+Asyn
+R263
+R5
+R6
+R790
+l62
+L53
+V_n<kCiUk^CdB>Pn]9_]JD1
+!s100 aB9EKc@nDF7fBDzUo;JVV0
+R10
+32
+R807
+!i10b 1
+R808
+R809
+R810
+!i113 1
+R15
+R16
+Esum_14
+Z811 w1656454004
+R5
+R6
+R7
+Z812 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Sum_14.vhd
+Z813 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Sum_14.vhd
+l0
+L43
+VASg:lG_B:MLg=kgm>7QGg1
+!s100 OjL17a6COgERe693>gVQG2
+R10
+32
+Z814 !s110 1657512703
+!i10b 1
+Z815 !s108 1657512703.382000
+Z816 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Sum_14.vhd|
+Z817 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Sum_14.vhd|
+!i113 1
+R15
+R16
+Asyn
+R5
+R6
+R266
+l75
+L52
+VP?Y@bE3SNSV2`I<_mIWfW0
+!s100 5EmEAGg5C`B7H4608B@ce0
+R10
+32
+R814
+!i10b 1
+R815
+R816
+R817
+!i113 1
+R15
+R16
+Esum_7
+Z818 w1656453932
+R5
+R6
+R7
+Z819 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Sum_7.vhd
+Z820 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Sum_7.vhd
+l0
+L43
+V3?cDl@i^V7[3C0VYo`J9M1
+!s100 Ac8kageY78DO]0YgnQ>c91
+R10
+32
+R794
+!i10b 1
+Z821 !s108 1657512702.952000
+Z822 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Sum_7.vhd|
+Z823 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Sum_7.vhd|
+!i113 1
+R15
+R16
+Asyn
+R5
+R6
+R267
+l75
+L52
+V<1iOM4?UJ?0YEjYKihdNa2
+!s100 CjmTMhf`CQA`Az@5ReV3M3
+R10
+32
+R794
+!i10b 1
+R821
+R822
+R823
+!i113 1
+R15
+R16
+Esum_add
+Z824 w1654837752
+R263
+R5
+R6
+R7
+Z825 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Sum_ADD.vhd
+Z826 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Sum_ADD.vhd
+l0
+L43
+VlO]5R3O^0<m<X:KlE9f=W0
+!s100 aHS0>GzJ3PHN17ZAF::Z62
+R10
+32
+R814
+!i10b 1
+Z827 !s108 1657512703.823000
+Z828 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Sum_ADD.vhd|
+Z829 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/Sum_ADD.vhd|
+!i113 1
+R15
+R16
+Asyn
+R263
+R5
+R6
+R249
+l76
+L60
+V[ioSiDC=WiPc:N3bK9<N<3
+!s100 ?jk>6cISCBddZfWbbf@2=1
+R10
+32
+R814
+!i10b 1
+R827
+R828
+R829
+!i113 1
+R15
+R16
+Esumador
+Z830 w1655262842
+R263
+R5
+R6
+R7
+Z831 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/SUmador.vhd
+Z832 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/SUmador.vhd
+l0
+L43
+V`LdA[93LccTYnm@DT=R;91
+!s100 04nb3PYb_G@X<J?T9BHRS2
+R10
+32
+R807
+!i10b 1
+Z833 !s108 1657512704.755000
+Z834 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/SUmador.vhd|
+Z835 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/SUmador.vhd|
+!i113 1
+R15
+R16
+Asyn
+R263
+R5
+R6
+R441
+l62
+L53
+VR267lhVh]c0T6oG787CCM1
+!s100 Cg3mIioX7RHGTh:48j7z50
+R10
+32
+R807
+!i10b 1
+R833
+R834
+R835
+!i113 1
+R15
+R16
+Esumadortotal
+Z836 w1655263076
+R263
+R5
+R6
+R7
+Z837 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/SumadorTotal.vhd
+Z838 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/SumadorTotal.vhd
+l0
+L43
+VLQ[fXS;dL2HI]5n^Z?oT90
+!s100 SMJhHWig>L2[8_WzSObKi0
+R10
+32
+Z839 !s110 1657512705
+!i10b 1
+Z840 !s108 1657512705.177000
+Z841 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/SumadorTotal.vhd|
+Z842 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/SumadorTotal.vhd|
+!i113 1
+R15
+R16
+Asyn
+R263
+R5
+R6
+R439
+l62
+L53
+VZ:9UoXfY`9gGa?B4oC:Lo2
+!s100 SAAeTcX:N`gGB`b8;j]I@1
+R10
+32
+R839
+!i10b 1
+R840
+R841
+R842
+!i113 1
+R15
+R16
+Euart
+Z843 w1656556744
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+Z844 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/UART.vhd
+Z845 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/UART.vhd
+l0
+L6
+V>J7Fe0mgC29R:V9`a54H=0
+!s100 liR[N9i`ZiKN9VVehP[Vz3
+R10
+32
+R839
+!i10b 1
+Z846 !s108 1657512705.587000
+Z847 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/UART.vhd|
+Z848 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/UART.vhd|
+!i113 1
+R15
+R16
+Afunctional
+R567
+R575
+R582
+R589
+R597
+R604
+R612
+R619
+R546
+R94
+R87
+R152
+R1
+R2
+R3
+R4
+R5
+R6
+Z849 DEx4 work 4 uart 0 22 >J7Fe0mgC29R:V9`a54H=0
+l65
+L33
+V=7fWR^ZF6A>5dh?>e3B=51
+!s100 OX^^hKC7oh0>]hQJ_2_[z1
+R10
+32
+R839
+!i10b 1
+R846
+R847
+R848
+!i113 1
+R15
+R16
+Euartramfiltro
+Z850 w1656668196
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+Z851 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/UartRAMFiltro.vhd
+Z852 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/UartRAMFiltro.vhd
+l0
+L6
+Vc@IAHKZYD`FXCVFEf@Cg;0
+!s100 ak12AQd7QL5_SaQ7iDbK21
+R10
+32
+Z853 !s110 1657512706
+!i10b 1
+Z854 !s108 1657512705.991000
+Z855 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/UartRAMFiltro.vhd|
+Z856 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/UartRAMFiltro.vhd|
+!i113 1
+R15
+R16
+Afunctional
+R241
+R269
+Z857 DEx4 work 13 uartrecepcion 0 22 G36nAcE=3UBo7=cNeCmOA2
+R1
+R2
+R3
+R4
+R5
+R6
+R20
+l61
+L21
+VOPUlBL?R7OP<Xzf_b2`=B3
+!s100 j_nGSn2f<D6JCg^IeMM?Z2
+R10
+32
+R853
+!i10b 1
+R854
+R855
+R856
+!i113 1
+R15
+R16
+Euartrecepcion
+Z858 w1656575786
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+Z859 8C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/UartRecepcion.vhd
+Z860 FC:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/UartRecepcion.vhd
+l0
+L6
+VG36nAcE=3UBo7=cNeCmOA2
+!s100 1]da;G0?`SlHV9cRE<G?@0
+R10
+32
+R853
+!i10b 1
+Z861 !s108 1657512706.455000
+Z862 !s90 -reportprogress|30|-work|work|C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/UartRecepcion.vhd|
+Z863 !s107 C:/altera/15.0/Proyectos/CNNCompleta/CNNCompleta/UartRecepcion.vhd|
+!i113 1
+R15
+R16
+Afunctional
+R285
+R849
+R1
+R2
+R3
+R4
+R5
+R6
+R857
+l74
+L37
+Z864 VmZ0W?z@NkSk1kA3?:E4X=0
+Z865 !s100 K945I1SzeG`Zc2A<C;bFU1
+R10
+32
+R853
+!i10b 1
+R861
+R862
+R863
+!i113 1
+R15
+R16

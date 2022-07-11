@@ -1,0 +1,355 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+-------------------------------------
+ENTITY control_pr_capa IS
+	PORT( 	clk					:		IN		STD_LOGIC;
+				rst					:		IN		STD_LOGIC;
+				n_ContCapa1			:		IN		STD_LOGIC;
+				n_ReLU				:		IN		STD_LOGIC;
+				F_dir					:		IN		STD_LOGIC;
+				
+				ctr8count			:		OUT	STD_LOGIC;
+				n_ReLUCapa1			:		OUT	STD_LOGIC;
+				n_memorias			:		OUT	STD_LOGIC;
+				n_RegMemorias		:		OUT	STD_LOGIC;
+				n_RegTemp			:		OUT	STD_LOGIC
+				
+				);												
+END ENTITY;
+--------------------------------------
+ARCHITECTURE behavioral OF control_pr_capa	IS
+
+	TYPE estados IS (CERO,UNO,UNOYMEDIO,DOS,TRES,CUATRO,CUATROYMEDIO,CINCO,SEIS,SIETE,SIETEYMEDIO,OCHO,NUEVE,DIEZ,DIEZYMEDIO,ONCE,DOCE,TRECE);
+	SIGNAL state: estados; 
+	
+BEGIN
+
+
+	PROCESS (rst,clk,n_ContCapa1)
+	BEGIN
+			IF(rst='1') THEN
+					state <= CERO;
+			ELSIF(rising_edge(clk)) THEN
+				IF ((rst= '0')) THEN
+						CASE state IS
+								WHEN	CERO =>
+										ctr8count		<= '0';
+										n_ReLUCapa1		<= '0';
+										n_memorias		<= '0';
+										n_RegMemorias	<= '0';
+										n_RegTemp		<= '0';
+										RESET_DIR		<= '0';
+										rden				<= '0';
+										Ctr_CountGap  	<= '0';
+										state <= UNO;
+									    										 
+							   WHEN	UNO =>
+										ctr8count		<= '0';
+										n_ReLUCapa1		<= '0';
+										n_memorias		<= '0';
+										n_RegMemorias	<= '0';
+										n_RegTemp		<= '0';
+										RESET_DIR		<= '0';
+										rden				<= '0';
+										Ctr_CountGap  	<= '0';	
+										IF (F_dir = '1') THEN		  
+										 	state <= DOS;
+										ELSE 
+											state <= UNO;
+										END IF;
+										 
+								WHEN	DOS =>
+											
+										IF (F_dir = '0') THEN		  
+										 	ctr8count		<= '0';
+											n_ReLUCapa1		<= '0';
+											n_memorias		<= '0';
+											n_RegMemorias	<= '0';
+											n_RegTemp		<= '1';
+											RESET_DIR		<= '1';
+											rden				<= '1';
+											Ctr_CountGap   <= '0';
+											state <= TRES;
+										ELSE 
+											ctr8count		<= '0';
+											n_ReLUCapa1		<= '0';
+											n_memorias		<= '0';
+											n_RegMemorias	<= '0';
+											n_RegTemp		<= '0';
+											RESET_DIR		<= '0';
+											rden				<= '0';
+											Ctr_CountGap   <= '0';
+											state <= DOS;
+										END IF;
+										 
+								WHEN  TRES =>
+										 ctr8count		<= '0';
+										 n_ReLUCapa1	<= '0';
+										 n_memorias		<= '0';
+										 n_RegMemorias	<= '1';
+										 n_RegTemp		<= '0';
+										 RESET_DIR		<= '0';
+										 rden				<= '0';
+										 Ctr_CountGap  <= '1';
+										 state <= UNO;
+										 
+								WHEN	CUATRO =>
+										  ctr8count <= '0';
+										  ctr_count5 <= '0';
+										  n_RAM_Abdom <= '0';
+										  n_RAM_F_Aire <= '1';
+										  n_RAM_PPG <= '1';
+										  n_RAM_Torax <= '1';
+										  n_RAM_I_Ronq <= '1';
+										  n_RAM_SPO2 <= '1';
+										  n_RAM_C4A1 <= '0';
+										  n_RAM_O2A1 <= '0';	
+										  n_ReLUCapa1 <= '0';						 
+										 state <= CUATROYMEDIO;
+										 
+								WHEN  CUATROYMEDIO =>
+										  ctr8count <= '0';
+										  ctr_count5 <= '0';
+										  n_RAM_Abdom <= '0';
+										  n_RAM_F_Aire <= '1';
+										  n_RAM_PPG <= '1';
+										  n_RAM_Torax <= '1';
+										  n_RAM_I_Ronq <= '1';
+										  n_RAM_SPO2 <= '1';
+										  n_RAM_C4A1 <= '0';
+										  n_RAM_O2A1 <= '0';	
+										  n_ReLUCapa1 <= '0';
+										 state <= CINCO;
+										 
+								WHEN	CINCO =>
+										 IF (count8ctr = '1') THEN			
+													 ctr8count <= '1';
+													 ctr_count5 <= '0';
+													 n_RAM_Abdom <= '0';
+													 n_RAM_F_Aire <= '1';
+													 n_RAM_PPG <= '1';
+													 n_RAM_Torax <= '1';
+													 n_RAM_I_Ronq <= '1';
+													 n_RAM_SPO2 <= '1';
+													 n_RAM_C4A1 <= '0';
+													 n_RAM_O2A1 <= '0';	
+													 n_ReLUCapa1 <= '0';
+													state <= SEIS;
+										 ELSIF (count8ctr = '0') THEN
+													 ctr8count <= '0';
+													 ctr_count5 <= '0';
+													 n_RAM_Abdom <= '0';
+													 n_RAM_F_Aire <= '1';
+													 n_RAM_PPG <= '1';
+													 n_RAM_Torax <= '1';
+													 n_RAM_I_Ronq <= '1';
+													 n_RAM_SPO2 <= '1';
+													 n_RAM_C4A1 <= '0';
+													 n_RAM_O2A1 <= '0';
+													 n_ReLUCapa1 <= '0';
+													state <= CUATRO;
+										 ELSE
+													state <= CINCO;
+										 END IF;
+								WHEN  SEIS =>
+										IF ((EndMult1 = '1')AND(EndMult2 = '1')AND(EndMult3 = '1')) THEN --
+													ctr8count <= '0';
+													ctr_count5 <= '0';
+													 n_RAM_Abdom <= '0';
+													 n_RAM_F_Aire <= '1';
+													 n_RAM_PPG <= '1';
+													 n_RAM_Torax <= '1';
+													 n_RAM_I_Ronq <= '1';
+													 n_RAM_SPO2 <= '1';
+													 n_RAM_C4A1 <= '0';
+													 n_RAM_O2A1 <= '0';
+													 n_ReLUCapa1 <= '0';
+													state <= SIETE;
+										 ELSE					
+													
+													state <= SEIS;
+										 END IF;
+								WHEN	SIETE =>
+										  ctr8count <= '0';
+										  ctr_count5 <= '0';
+										  n_RAM_Abdom <= '0';
+										  n_RAM_F_Aire <= '0';
+										  n_RAM_PPG <= '1';
+										  n_RAM_Torax <= '1';
+										  n_RAM_I_Ronq <= '1';
+										  n_RAM_SPO2 <= '1';
+										  n_RAM_C4A1 <= '1';
+										  n_RAM_O2A1 <= '0';	
+										  n_ReLUCapa1 <= '0';					 
+										 state <= SIETEYMEDIO;
+										 
+								WHEN  SIETEYMEDIO =>
+										  ctr8count <= '0';
+										  ctr_count5 <= '0';
+										  n_RAM_Abdom <= '0';
+										  n_RAM_F_Aire <= '0';
+										  n_RAM_PPG <= '1';
+										  n_RAM_Torax <= '1';
+										  n_RAM_I_Ronq <= '1';
+										  n_RAM_SPO2 <= '1';
+										  n_RAM_C4A1 <= '1';
+										  n_RAM_O2A1 <= '0';
+										  n_ReLUCapa1 <= '0';	
+										 state <= OCHO;
+										 
+								WHEN	OCHO =>
+										 IF (count8ctr = '1') THEN			
+													 ctr8count <= '1';
+													 ctr_count5 <= '0';
+													 n_RAM_Abdom <= '0';
+													 n_RAM_F_Aire <= '0';
+													 n_RAM_PPG <= '1';
+													 n_RAM_Torax <= '1';
+													 n_RAM_I_Ronq <= '1';
+													 n_RAM_SPO2 <= '1';
+													 n_RAM_C4A1 <= '1';
+													 n_RAM_O2A1 <= '0';	
+													 n_ReLUCapa1 <= '0';
+													state <= NUEVE;
+										 ELSIF (count8ctr = '0') THEN
+													 ctr8count <= '0';
+													 ctr_count5 <= '0';
+													 n_RAM_Abdom <= '0';
+													 n_RAM_F_Aire <= '0';
+													 n_RAM_PPG <= '1';
+													 n_RAM_Torax <= '1';
+													 n_RAM_I_Ronq <= '1';
+													 n_RAM_SPO2 <= '1';
+													 n_RAM_C4A1 <= '1';
+													 n_RAM_O2A1 <= '0';
+													 n_ReLUCapa1 <= '0';
+													state <= SIETE;
+										 ELSE
+													state <= OCHO;
+										 END IF;
+								WHEN  NUEVE =>
+										 IF ((EndMult1 = '1')AND(EndMult2 = '1')AND(EndMult3 = '1')) THEN --
+													ctr8count <= '0';
+													ctr_count5 <= '0';
+													 n_RAM_Abdom <= '0';
+													 n_RAM_F_Aire <= '0';
+													 n_RAM_PPG <= '1';
+													 n_RAM_Torax <= '1';
+													 n_RAM_I_Ronq <= '1';
+													 n_RAM_SPO2 <= '1';
+													 n_RAM_C4A1 <= '1';
+													 n_RAM_O2A1 <= '0';
+													 n_ReLUCapa1 <= '0';
+													state <= DIEZ;
+										 ELSE					
+													
+													state <= NUEVE;
+										 END IF;		
+								WHEN	DIEZ =>
+										  ctr8count <= '0';
+										  ctr_count5 <= '0';
+										  n_RAM_Abdom <= '0';
+										  n_RAM_F_Aire <= '0';
+										  n_RAM_PPG <= '0';
+										  n_RAM_Torax <= '1';
+										  n_RAM_I_Ronq <= '1';
+										  n_RAM_SPO2 <= '1';
+										  n_RAM_C4A1 <= '1';
+										  n_RAM_O2A1 <= '1';
+										  n_ReLUCapa1 <= '0';							 
+										 state <= DIEZYMEDIO;
+										 
+								WHEN  DIEZYMEDIO =>
+										  ctr8count <= '0';
+										  ctr_count5 <= '0';
+										  n_RAM_Abdom <= '0';
+										  n_RAM_F_Aire <= '0';
+										  n_RAM_PPG <= '0';
+										  n_RAM_Torax <= '1';
+										  n_RAM_I_Ronq <= '1';
+										  n_RAM_SPO2 <= '1';
+										  n_RAM_C4A1 <= '1';
+										  n_RAM_O2A1 <= '1';
+										  n_ReLUCapa1 <= '0';	
+										 state <= ONCE;
+										 
+								WHEN	ONCE =>
+										 IF (count8ctr = '1') THEN			
+													 ctr8count <= '1';
+													 ctr_count5 <= '0';
+													 n_RAM_Abdom <= '0';
+													 n_RAM_F_Aire <= '0';
+													 n_RAM_PPG <= '0';
+													 n_RAM_Torax <= '1';
+													 n_RAM_I_Ronq <= '1';
+													 n_RAM_SPO2 <= '1';
+													 n_RAM_C4A1 <= '1';
+													 n_RAM_O2A1 <= '1';
+													 n_ReLUCapa1 <= '0';	
+													state <= DOCE;
+										 ELSIF (count8ctr = '0') THEN
+													 ctr8count <= '0';
+													 ctr_count5 <= '0';
+													 n_RAM_Abdom <= '0';
+													 n_RAM_F_Aire <= '0';
+													 n_RAM_PPG <= '0';
+													 n_RAM_Torax <= '1';
+													 n_RAM_I_Ronq <= '1';
+													 n_RAM_SPO2 <= '1';
+													 n_RAM_C4A1 <= '1';
+													 n_RAM_O2A1 <= '1';
+													 n_ReLUCapa1 <= '0';
+													state <= DIEZ;
+										 ELSE
+													state <= ONCE;
+										 END IF;
+								WHEN  DOCE => --FALTA LA ACCION (x:contador+1)
+										 IF (FLAG_5 = '1') THEN
+													ctr8count <= '0';
+													ctr_count5 <= '0';--ena
+													 n_RAM_Abdom <= '0';
+													 n_RAM_F_Aire <= '0';
+													 n_RAM_PPG <= '0';
+													 n_RAM_Torax <= '0';
+													 n_RAM_I_Ronq <= '0';
+													 n_RAM_SPO2 <= '0';
+													 n_RAM_C4A1 <= '0';
+													 n_RAM_O2A1 <= '0';
+													 n_ReLUCapa1 <= '0';
+													state <= TRECE;
+										 ELSIF (FLAG_5 = '0') THEN
+													 ctr8count <= '0';
+													 ctr_count5 <= '0';
+													 n_RAM_Abdom <= '0';
+													 n_RAM_F_Aire <= '0';
+													 n_RAM_PPG <= '0';
+													 n_RAM_Torax <= '0';
+													 n_RAM_I_Ronq <= '0';
+													 n_RAM_SPO2 <= '0';
+													 n_RAM_C4A1 <= '0';
+													 n_RAM_O2A1 <= '0';
+													 n_ReLUCapa1 <= '0';
+													state <= CERO;
+										 ELSE
+													state <= DOCE;
+										 END IF;
+								WHEN TRECE => --ENABLE RELU (CREO)
+										 ctr8count <= '0';
+										 ctr_count5 <= '1';
+										 n_RAM_Abdom <= '0';
+										 n_RAM_F_Aire <= '0';
+										 n_RAM_PPG <= '0';
+										 n_RAM_Torax <= '1';
+										 n_RAM_I_Ronq <= '1';
+										 n_RAM_SPO2 <= '1';
+										 n_RAM_C4A1 <= '1';
+										 n_RAM_O2A1 <= '1';
+										 n_ReLUCapa1 <= '1';  -- ESTE
+										state <= DOCE; 	--(CREO)
+							END CASE;
+					END IF;
+			END IF;
+	END PROCESS;
+	
+	
+END ARCHITECTURE;

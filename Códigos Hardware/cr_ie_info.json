@@ -1,0 +1,22 @@
+{
+	"system" : {
+		"platform" : "windows64",
+		"os_name" : "Windows 7",
+		"os_version" : "6.2"
+	},
+	"error" : {
+		"executable" : "quartus",
+		"comment" : "not_applicable",
+		"error_message" : "\nQuartus II requested that Windows modify job info, but Windows could not do so.\nPlease report the full text of this message to Altera so we can investigate its causes.\nIn the meantime, may wish to take the following steps to work around the problem:\n   * Disabled parallel compilation if it is enabled\n   * Ensure you have sufficient memory to run Quartus.\n   * Ensure all service packs and patches from Microsoft are installed\n\nTechnical details:\n   * API: result\n   * OS code: 6 (Controlador no válido.)\n",
+		"source_file" : "/quartus/ccl/thr/thr_process.cpp",
+		"line" : "478",
+		"stack_trace" : "\t0x7ffbae5724c8: ccl_thr + 0x24c8 (thr_msleep + 0xc8)\n\t0x7ffbae572f1d: ccl_thr + 0x2f1d (thr_thread_wrapper + 0x10d)\n\t0x7ffbae571cce: ccl_thr + 0x1cce (thr_process_create_and_save_job + 0x6fe)\n\t0x7ffb9fd73e9b: ccl_ipc + 0x3e9b (?run@IPC_COMMAND@@QEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$MEM_STL_ALLOCATOR@D@@@std@@0_NPEAK01@Z + 0x45b)\n\t0x7ffb74e45141: sys_flow + 0x5141 (?fitter_ran_dat@FLOW_FACADE@@QEBA_NXZ + 0x861)\n\t0x7ffbaf3ee31c: CCL_MSG + 0xe31c (?msg_set_stack_size@@YAXH@Z + 0x7c)\n\t0x7ffbaf614c0c: ccl_mem + 0x4c0c (?mem_malloc_wrapper@@YAPEAX_KPEAVMEM_TRACKER_THUNK@@PEBD@Z + 0x18c)\n\t0x7ffbae572791: ccl_thr + 0x2791 (thr_sleep + 0xb1)\n\t0x7ffbd1cb54df: KERNEL32 + 0x154df (BaseThreadInitThunk + 0xf)\n\t0x7ffbd1da485a: ntdll + 0x485a (RtlUserThreadStart + 0x2a)\n",
+		"subsystem" : "THR"
+	},
+	"quartus" : {
+		"quartus_bits" : "64",
+		"version" : "15.0.0",
+		"build" : "145",
+		"edition" : "Web Edition"
+	}
+}

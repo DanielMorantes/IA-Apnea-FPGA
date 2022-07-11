@@ -1,0 +1,259 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, the Altera Quartus II License Agreement,
+# the Altera MegaCore Function License Agreement, or other 
+# applicable license agreement, including, without limitation, 
+# that your use is for the sole purpose of programming logic 
+# devices manufactured by Altera and sold by Altera or its 
+# authorized distributors.  Please refer to the applicable 
+# agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 15.0.0 Build 145 04/22/2015 SJ Web Edition
+# Date created = 13:13:39  July 02, 2022
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		CNNCompleta_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+set_global_assignment -name TOP_LEVEL_ENTITY RegistrosRAM
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 15.0.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "13:13:39  JULY 02, 2022"
+set_global_assignment -name LAST_QUARTUS_VERSION 15.0.0
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
+set_global_assignment -name VHDL_FILE ROM_Filtro_5.vhd
+set_global_assignment -name VHDL_FILE ROM_Filtro_4.vhd
+set_global_assignment -name VHDL_FILE ROM_Filtro_3.vhd
+set_global_assignment -name MIF_FILE ROMPares.mif
+set_global_assignment -name MIF_FILE RomImpares.mif
+set_global_assignment -name MIF_FILE ROM_in_5.mif
+set_global_assignment -name MIF_FILE ROM_in_4.mif
+set_global_assignment -name MIF_FILE ROM_in_3.mif
+set_global_assignment -name MIF_FILE ROM_in_2.mif
+set_global_assignment -name MIF_FILE ROM_in_1.mif
+set_global_assignment -name MIF_FILE PesosSiHayApnea.mif
+set_global_assignment -name MIF_FILE PesosNoHayApnea.mif
+set_global_assignment -name VHDL_FILE UartRecepcion.vhd
+set_global_assignment -name VHDL_FILE UartRAMFiltro.vhd
+set_global_assignment -name VHDL_FILE UART.vhd
+set_global_assignment -name VHDL_FILE SumadorTotal.vhd
+set_global_assignment -name QIP_FILE SumadorTotal.qip
+set_global_assignment -name SOURCE_FILE SumadorTotal.cmp
+set_global_assignment -name VHDL_FILE SUmador.vhd
+set_global_assignment -name QIP_FILE Sumador.qip
+set_global_assignment -name SOURCE_FILE SUmador.cmp
+set_global_assignment -name VHDL_FILE Sum1Capa2.vhd
+set_global_assignment -name QIP_FILE Sum1Capa2.qip
+set_global_assignment -name SOURCE_FILE Sum1Capa2.cmp
+set_global_assignment -name VHDL_FILE Sum_ADD.vhd
+set_global_assignment -name QIP_FILE Sum_ADD.qip
+set_global_assignment -name VHDL_FILE Sum_14.vhd
+set_global_assignment -name QIP_FILE Sum_14.qip
+set_global_assignment -name VHDL_FILE Sum_7.vhd
+set_global_assignment -name QIP_FILE Sum_7.qip
+set_global_assignment -name VHDL_FILE Sum.vhd
+set_global_assignment -name QIP_FILE Sum.qip
+set_global_assignment -name VHDL_FILE Softmax.vhd
+set_global_assignment -name VHDL_FILE SeCapaOculta.vhd
+set_global_assignment -name VHDL_FILE ROMSiHayApnea.vhd
+set_global_assignment -name QIP_FILE ROMSiHayApnea.qip
+set_global_assignment -name SOURCE_FILE ROMSiHayApnea.cmp
+set_global_assignment -name VHDL_FILE ROMPares.vhd
+set_global_assignment -name QIP_FILE ROMPares.qip
+set_global_assignment -name SOURCE_FILE ROMPares.cmp
+set_global_assignment -name VHDL_FILE ROMNoHayApnea.vhd
+set_global_assignment -name QIP_FILE ROMNoHayApnea.qip
+set_global_assignment -name SOURCE_FILE ROMNoHayApnea.cmp
+set_global_assignment -name VHDL_FILE ROMImpares.vhd
+set_global_assignment -name QIP_FILE ROMImpares.qip
+set_global_assignment -name SOURCE_FILE ROMImpares.cmp
+set_global_assignment -name QIP_FILE ROM_Filtro_5.qip
+set_global_assignment -name QIP_FILE ROM_Filtro_4.qip
+set_global_assignment -name QIP_FILE ROM_Filtro_3.qip
+set_global_assignment -name VHDL_FILE ROM_Filtro_2.vhd
+set_global_assignment -name QIP_FILE ROM_Filtro_2.qip
+set_global_assignment -name VHDL_FILE ROM_Filtro_1.vhd
+set_global_assignment -name QIP_FILE ROM_Filtro_1.qip
+set_global_assignment -name VHDL_FILE ROM_Filtro.vhd
+set_global_assignment -name QIP_FILE ROM_Filtro.qip
+set_global_assignment -name VHDL_FILE reLUCapa1.vhd
+set_global_assignment -name VHDL_FILE RELU.vhd
+set_global_assignment -name VHDL_FILE RegTempCapa2.vhd
+set_global_assignment -name VHDL_FILE RegTemp.vhd
+set_global_assignment -name VHDL_FILE RegOutROM.vhd
+set_global_assignment -name VHDL_FILE RegOutRAM.vhd
+set_global_assignment -name VHDL_FILE RegistrosRAM.vhd
+set_global_assignment -name VHDL_FILE RegistroDeCorrimientos.vhd
+set_global_assignment -name VHDL_FILE Registro8.vhd
+set_global_assignment -name VHDL_FILE Registro_ROM_7in.vhd
+set_global_assignment -name VHDL_FILE Registro_ROM_6in.vhd
+set_global_assignment -name VHDL_FILE Registro_ROM_5in.vhd
+set_global_assignment -name VHDL_FILE Registro_ROM_4in.vhd
+set_global_assignment -name VHDL_FILE Registro_ROM_3in.vhd
+set_global_assignment -name VHDL_FILE Registro_ROM_2in.vhd
+set_global_assignment -name VHDL_FILE Registro_ROM_1in.vhd
+set_global_assignment -name VHDL_FILE Registro_8.vhd
+set_global_assignment -name VHDL_FILE Registro_7.vhd
+set_global_assignment -name VHDL_FILE Registro_6.vhd
+set_global_assignment -name VHDL_FILE Registro_5.vhd
+set_global_assignment -name VHDL_FILE Registro_4.vhd
+set_global_assignment -name VHDL_FILE Registro_3.vhd
+set_global_assignment -name VHDL_FILE Registro_2.vhd
+set_global_assignment -name VHDL_FILE Registro_1.vhd
+set_global_assignment -name VHDL_FILE Registro.vhd
+set_global_assignment -name VHDL_FILE Reg_Desp_tb.vhd
+set_global_assignment -name VHDL_FILE Reg_0.vhd
+set_global_assignment -name VHDL_FILE RdROMCount.vhd
+set_global_assignment -name VHDL_FILE RdRAMCount.vhd
+set_global_assignment -name VHDL_FILE RAM2Capa.vhd
+set_global_assignment -name QIP_FILE RAM2Capa.qip
+set_global_assignment -name SOURCE_FILE RAM2Capa.cmp
+set_global_assignment -name VHDL_FILE RAM2.vhd
+set_global_assignment -name QIP_FILE RAM2.qip
+set_global_assignment -name SOURCE_FILE RAM2.cmp
+set_global_assignment -name VHDL_FILE RAM1.vhd
+set_global_assignment -name QIP_FILE RAM1.qip
+set_global_assignment -name SOURCE_FILE RAM1.cmp
+set_global_assignment -name VHDL_FILE RAM_Torax.vhd
+set_global_assignment -name VHDL_FILE RAM_SPO2.vhd
+set_global_assignment -name VHDL_FILE RAM_PPG.vhd
+set_global_assignment -name VHDL_FILE RAM_O2A1.vhd
+set_global_assignment -name VHDL_FILE RAM_I_Ronq.vhd
+set_global_assignment -name VHDL_FILE RAM_F_Aire.vhd
+set_global_assignment -name VHDL_FILE RAM_C4A1.vhd
+set_global_assignment -name VHDL_FILE RAM_Abdom.vhd
+set_global_assignment -name VHDL_FILE PrCapaOculta.vhd
+set_global_assignment -name VHDL_FILE Pipo_8.vhd
+set_global_assignment -name VHDL_FILE Pipo_7.vhd
+set_global_assignment -name VHDL_FILE Pipo_6.vhd
+set_global_assignment -name VHDL_FILE Pipo_5.vhd
+set_global_assignment -name VHDL_FILE Pipo_4.vhd
+set_global_assignment -name VHDL_FILE Pipo_3.vhd
+set_global_assignment -name VHDL_FILE Pipo_2.vhd
+set_global_assignment -name VHDL_FILE Pipo_1.vhd
+set_global_assignment -name VHDL_FILE muxes.vhd
+set_global_assignment -name VHDL_FILE mux2_1_gates.vhd
+set_global_assignment -name VHDL_FILE Mux_Comparadores.vhd
+set_global_assignment -name QIP_FILE Mux_Comparadores.qip
+set_global_assignment -name SOURCE_FILE Mux_Comparadores.cmp
+set_global_assignment -name VHDL_FILE Mux_7y8.vhd
+set_global_assignment -name QIP_FILE Mux_7y8.qip
+set_global_assignment -name SOURCE_FILE Mux_7y8.cmp
+set_global_assignment -name VHDL_FILE Mux_5y6.vhd
+set_global_assignment -name QIP_FILE Mux_5y6.qip
+set_global_assignment -name SOURCE_FILE Mux_5y6.cmp
+set_global_assignment -name VHDL_FILE Mux_3y4.vhd
+set_global_assignment -name QIP_FILE Mux_3y4.qip
+set_global_assignment -name SOURCE_FILE Mux_3y4.cmp
+set_global_assignment -name VHDL_FILE Mux_1y2.vhd
+set_global_assignment -name QIP_FILE Mux_1y2.qip
+set_global_assignment -name SOURCE_FILE Mux_1y2.cmp
+set_global_assignment -name VHDL_FILE Multiplicador.vhd
+set_global_assignment -name QIP_FILE Multiplicador.qip
+set_global_assignment -name SOURCE_FILE Multiplicador.cmp
+set_global_assignment -name VHDL_FILE multiplexorFiltro.vhd
+set_global_assignment -name VHDL_FILE Multiplexor.vhd
+set_global_assignment -name QIP_FILE Multiplexor.qip
+set_global_assignment -name SOURCE_FILE Multiplexor.cmp
+set_global_assignment -name VHDL_FILE Mult1Capa2.vhd
+set_global_assignment -name QIP_FILE Mult1Capa2.qip
+set_global_assignment -name SOURCE_FILE Mult1Capa2.cmp
+set_global_assignment -name VHDL_FILE Mult.vhd
+set_global_assignment -name QIP_FILE Mult.qip
+set_global_assignment -name VHDL_FILE Memoria.vhd
+set_global_assignment -name VHDL_FILE Filtro_conv.vhd
+set_global_assignment -name VHDL_FILE DirRdROM.vhd
+set_global_assignment -name VHDL_FILE DirRdRAM.vhd
+set_global_assignment -name VHDL_FILE DireccionesParEImpar.vhd
+set_global_assignment -name VHDL_FILE Direcciones2Capa.vhd
+set_global_assignment -name VHDL_FILE Direcciones.vhd
+set_global_assignment -name VHDL_FILE CountGapTiempos.vhd
+set_global_assignment -name VHDL_FILE Count_Relu.vhd
+set_global_assignment -name VHDL_FILE Count_Fin.vhd
+set_global_assignment -name VHDL_FILE Count_Filtro.vhd
+set_global_assignment -name VHDL_FILE Count_8vcs.vhd
+set_global_assignment -name VHDL_FILE count.vhd
+set_global_assignment -name VHDL_FILE ControlMP.vhd
+set_global_assignment -name VHDL_FILE control_uart.vhd
+set_global_assignment -name VHDL_FILE control_se_capa.vhd
+set_global_assignment -name VHDL_FILE control_pr_capa.vhd
+set_global_assignment -name VHDL_FILE control_memorias.vhd
+set_global_assignment -name VHDL_FILE control_conv.vhd
+set_global_assignment -name VHDL_FILE Contador27.vhd
+set_global_assignment -name VHDL_FILE Contador4.vhd
+set_global_assignment -name VHDL_FILE Contador3.vhd
+set_global_assignment -name VHDL_FILE Contador2.vhd
+set_global_assignment -name VHDL_FILE Contador1.vhd
+set_global_assignment -name VHDL_FILE Compare.vhd
+set_global_assignment -name QIP_FILE Compare.qip
+set_global_assignment -name SOURCE_FILE Compare.cmp
+set_global_assignment -name VHDL_FILE ComparadorDeComparadores.vhd
+set_global_assignment -name QIP_FILE ComparadorDeComparadores.qip
+set_global_assignment -name SOURCE_FILE ComparadorDeComparadores.cmp
+set_global_assignment -name VHDL_FILE Comparador_Pipo_7y8.vhd
+set_global_assignment -name QIP_FILE Comparador_Pipo_7y8.qip
+set_global_assignment -name SOURCE_FILE Comparador_Pipo_7y8.cmp
+set_global_assignment -name VHDL_FILE Comparador_Pipo_5y6.vhd
+set_global_assignment -name QIP_FILE Comparador_Pipo_5y6.qip
+set_global_assignment -name SOURCE_FILE Comparador_Pipo_5y6.cmp
+set_global_assignment -name VHDL_FILE Comparador_Pipo_3y4.vhd
+set_global_assignment -name QIP_FILE Comparador_Pipo_3y4.qip
+set_global_assignment -name SOURCE_FILE Comparador_Pipo_3y4.cmp
+set_global_assignment -name VHDL_FILE Comparador_Pipo_1y2.vhd
+set_global_assignment -name QIP_FILE Comparador_Pipo_1y2.qip
+set_global_assignment -name SOURCE_FILE Comparador_Pipo_1y2.cmp
+set_global_assignment -name VHDL_FILE Comparador_de_comparadores2.vhd
+set_global_assignment -name QIP_FILE Comparador_de_comparadores2.qip
+set_global_assignment -name SOURCE_FILE Comparador_de_comparadores2.cmp
+set_global_assignment -name VHDL_FILE CNNCompleta.vhd
+set_global_assignment -name VHDL_FILE CNNCompleta_tb.vhd
+set_global_assignment -name VECTOR_WAVEFORM_FILE ../../../../Users/Estudiante/Desktop/Waveform.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE ../../../../Users/Estudiante/Desktop/Waveform1.vwf
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name VECTOR_WAVEFORM_FILE ../../../../../Users/57319/OneDrive/Escritorio/Waveform.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE ../../../../../Users/57319/OneDrive/Escritorio/Waveform1.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE ../../../../../Users/57319/OneDrive/Escritorio/Waveform2.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE ../../../../../Users/57319/OneDrive/Escritorio/Waveform3.vwf
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_location_assignment PIN_AH23 -to Bit_entrada
+set_location_assignment PIN_Y2 -to clk
+set_location_assignment PIN_AG26 -to Reloj_out
+set_location_assignment PIN_AC15 -to nsoftmax
+set_location_assignment PIN_AB22 -to Apnea_OUT
+set_location_assignment PIN_Y23 -to RESET
+set_global_assignment -name CDF_FILE output_files/Chain1.cdf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name VHDL_FILE RegistrosRAM_tb.vhd
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
