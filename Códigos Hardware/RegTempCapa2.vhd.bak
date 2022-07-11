@@ -1,0 +1,36 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+-------------------------------------
+
+ENTITY RegTempCapa2 IS
+	PORT( 	clk				:		IN		STD_LOGIC;
+				Reset				:		IN		STD_LOGIC;
+				nRegTempCapa2				:		IN 	STD_LOGIC;	
+				SumadorCapa2OUT		:		IN		STD_LOGIC_VECTOR (38 DOWNTO 0);
+				
+				RegTempCapa2_OUT	:		OUT	STD_LOGIC_VECTOR(38 DOWNTO 0)
+	);												
+END ENTITY;
+
+-------------------------------------
+architecture RegTempCapa2_Arch of RegTempCapa2 is
+SIGNAL estado: STD_LOGIC_VECTOR(33 DOWNTO 0);
+BEGIN
+
+PROCESS (clk, Reset, nRegTempCapa2, SumadorCapa2OUT)
+BEGIN 
+IF ( Reset = '1') THEN
+	estado <= "0000000000000000000000000000000000";
+ELSIF (rising_edge(clk)) THEN
+	IF (nRegTempCapa2 = '1') THEN
+		estado <= SumadorCapa2OUT;
+						
+	END IF;
+END IF;
+
+END PROCESS;
+
+RegTempCapa2_OUT <= estado;
+
+
+End RegTempCapa2_Arch;

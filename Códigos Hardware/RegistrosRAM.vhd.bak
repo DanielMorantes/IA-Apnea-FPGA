@@ -1,0 +1,140 @@
+-- Pipos 1y2 con 5y6 van a Reg1
+-- Pipos 3y4 con 7y8 van a Reg0	 
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+-------------------------------------
+ENTITY BloqueRegistros IS
+	PORT( 	clk					:		IN		STD_LOGIC;		--Reloj del sistema de 50 MHz
+				Reset					:		IN		STD_LOGIC;
+				n8byt					:		IN 	STD_LOGIC;		--LLega de control enviado previamente por bloque contar_8_bits 	--
+				reLU_out				:		IN		STD_LOGIC_VECTOR (7 DOWNTO 0);
+				
+				---------------			RAM para entrada a Primera Capa Oculta			---------------
+				RAM_Pares			: 		OUT 	STD_LOGIC_VECTOR (7 DOWNTO 0);
+				RAM_Impares			:		OUT	STD_LOGIC_VECTOR (7 DOWNTO 0));
+				
+
+ARCHITECTURE	functional OF UART IS
+
+SIGNAL Pipo_1_IN				:		STD_LOGIC_VECTOR(7 DOWNTO 0);
+SIGNAL Pipo_2_IN				:		STD_LOGIC_VECTOR(7 DOWNTO 0);
+SIGNAL Pipo_3_IN				:		STD_LOGIC_VECTOR(7 DOWNTO 0);
+SIGNAL Pipo_4_IN				:		STD_LOGIC_VECTOR(7 DOWNTO 0);
+SIGNAL Pipo_5_IN				:		STD_LOGIC_VECTOR(7 DOWNTO 0);
+SIGNAL Pipo_6_IN				:		STD_LOGIC_VECTOR(7 DOWNTO 0);
+SIGNAL Pipo_7_IN				:		STD_LOGIC_VECTOR(7 DOWNTO 0);
+SIGNAL Pipo_8_IN				:		STD_LOGIC_VECTOR(7 DOWNTO 0);
+
+SIGNAL Pipo_1_OUT				:		STD_LOGIC_VECTOR(7 DOWNTO 0);
+SIGNAL Pipo_2_OUT				:		STD_LOGIC_VECTOR(7 DOWNTO 0);
+SIGNAL Pipo_3_OUT				:		STD_LOGIC_VECTOR(7 DOWNTO 0);
+SIGNAL Pipo_4_OUT				:		STD_LOGIC_VECTOR(7 DOWNTO 0);
+SIGNAL Pipo_5_OUT				:		STD_LOGIC_VECTOR(7 DOWNTO 0);
+SIGNAL Pipo_6_OUT				:		STD_LOGIC_VECTOR(7 DOWNTO 0);
+SIGNAL Pipo_7_OUT				:		STD_LOGIC_VECTOR(7 DOWNTO 0);
+SIGNAL Pipo_8_OUT				:		STD_LOGIC_VECTOR(7 DOWNTO 0);
+
+SIGNAL dataa					: 		STD_LOGIC_VECTOR(7 DOWNTO 0);
+SIGNAL datab					: 		STD_LOGIC_VECTOR(7 DOWNTO 0);
+SIGNAL agb						: 		STD_LOGIC; 
+
+SIGNAL PIPO1y2_OUT			: 		STD_LOGIC;
+SIGNAL PIPO5y6_OUT			: 		STD_LOGIC;
+SIGNAL PIPO3y4_OUT			: 		STD_LOGIC;
+SIGNAL PIPO7y8_OUT			: 		STD_LOGIC;
+SIGNAL COMPDCOMP_OUT			:		STD_LOGIC;
+
+SIGNAL Reg_A_IN				:		STD_LOGIC_VECTOR(7 DOWNTO 0);
+SIGNAL Reg_A_OUT				:		STD_LOGIC_VECTOR(7 DOWNTO 0);
+SIGNAL Reg_B_IN				:		STD_LOGIC_VECTOR(7 DOWNTO 0);
+SIGNAL Reg_B_OUT				:		STD_LOGIC_VECTOR(7 DOWNTO 0);
+
+SIGNAL data0x					: 		STD_LOGIC_VECTOR (7 DOWNTO 0);
+SIGNAL data1x					: 		STD_LOGIC_VECTOR (7 DOWNTO 0);
+SIGNAL sel						: 		STD_LOGIC;
+SIGNAL result					:		STD_LOGIC_VECTOR (7 DOWNTO 0);
+
+SIGNAL Mux1y2_OUT				:		STD_LOGIC_VECTOR (7 DOWNTO 0);
+SIGNAL Mux3y4_OUT				:		STD_LOGIC_VECTOR (7 DOWNTO 0);
+SIGNAL Mux5y6_OUT				:		STD_LOGIC_VECTOR (7 DOWNTO 0);
+SIGNAL Mux7y8_OUT				:		STD_LOGIC_VECTOR (7 DOWNTO 0);
+SIGNAL MuxComp_OUT			:		STD_LOGIC_VECTOR (7 DOWNTO 0);
+
+SIGNAL clock					: 		STD_LOGIC  := '1';
+SIGNAL data						: 		STD_LOGIC_VECTOR (7 DOWNTO 0);
+SIGNAL rdaddress				:     STD_LOGIC_VECTOR (4 DOWNTO 0);
+SIGNAL rden						: 		STD_LOGIC  := '1';
+SIGNAL wraddress				:		STD_LOGIC_VECTOR (4 DOWNTO 0);
+SIGNAL wren						: 		STD_LOGIC  := '0';
+SIGNAL qRAMPares				: 		STD_LOGIC_VECTOR (7 DOWNTO 0);
+SIGNAL qRAMImpares			:		STD_LOGIC_VECTOR (7 DOWNTO 0);
+SIGNAL q							:		STD_LOGIC_VECTOR (7 DOWNTO 0);
+
+
+	
+	
+BEGIN
+		
+Comparador_Fifos_1y2: ENTITY work.Comparador_Pipo_1y2
+		PORT MAP (	dataa			=>	dataa,
+						datab			=>	datab,
+						agb			=>	agb);
+						
+Comparador_Fifos_5y6: ENTITY work.Comparador_Pipo_5y6
+		PORT MAP (	dataa			=>	dataa,
+						datab			=>	datab,
+						agb			=>	agb);		
+		
+ComparadorDeComparadores: ENTITY work.ComparadorDeComparadores
+		PORT MAP (	dataa			=>	dataa,
+						datab			=>	datab,
+						agb			=>	agb);	
+				
+Comparador_Fifos_3y4: ENTITY work.Comparador_Pipo_3y4
+		PORT MAP (	dataa			=>	dataa,
+						datab			=>	datab,
+						agb			=>	agb);
+			
+Comparador_Fifos_7y8: ENTITY work.Comparador_Pipo_7y8
+		PORT MAP (	dataa			=>	dataa,
+						datab			=>	datab,
+						agb			=>	agb);			
+						
+Comparador_de_comparadores2: ENTITY work.Comparador_de_comparadores2
+		PORT MAP (	dataa			=>	dataa,
+						datab			=>	datab,
+						agb			=>	agb);		
+						
+Mux_1y2: ENTITY work.Mux_1y2
+		PORT MAP (	data0x			=>	data0x,
+						data1x			=>	data1x,
+						sel				=>	sel,
+						result			=>	result);
+						
+Mux_5y6: ENTITY work.Mux_5y6
+		PORT MAP (	data0x			=>	data0x,
+						data1x			=>	data1x,
+						sel				=>	sel,
+						result			=>	result);
+						
+Mux_3y4: ENTITY work.Mux_3y4
+		PORT MAP (	data0x			=>	data0x,
+						data1x			=>	data1x,
+						sel				=>	sel,
+						result			=>	result);
+						
+Mux_7y8: ENTITY work.Mux_7y8
+		PORT MAP (	data0x			=>	data0x,
+						data1x			=>	data1x,
+						sel				=>	sel,
+						result			=>	result);
+						
+Mux_Comparadores: ENTITY work.Mux_Comparadores
+		PORT MAP (	data0x			=>	data0x,
+						data1x			=>	data1x,
+						sel				=>	sel,
+						result			=>	result);
+
+
+		
+END ARCHITECTURE	functional;

@@ -1,0 +1,91 @@
+-- Copyright (C) 1991-2013 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+
+-- ***************************************************************************
+-- This file contains a Vhdl test bench template that is freely editable to   
+-- suit user's needs .Comments are provided in each section to help the user  
+-- fill out necessary details.                                                
+-- ***************************************************************************
+-- Generated on "10/09/2019 05:06:32"
+                                                            
+-- Vhdl Test Bench template for design  :  UART
+-- 
+-- Simulation tool : ModelSim-Altera (VHDL)
+-- 
+
+LIBRARY ieee;                                               
+USE ieee.std_logic_1164.all;                                
+
+ENTITY RegistrosRAM_tb IS
+END RegistrosRAM_tb;
+ARCHITECTURE RegistrosRAM_tb_arch OF RegistrosRAM_tb IS
+-- constants  
+constant PERIODO : time:=20 ns;    -- Período del reloj                                               
+-- signals                                                   
+SIGNAL clk_tb			 		:	STD_LOGIC := '0';
+SIGNAL RESET_tb			 	: 	STD_LOGIC := '1';
+SIGNAL n8byt_tb 				:	STD_LOGIC := '1';
+SIGNAL Filt_Out_tb			:	STD_LOGIC_VECTOR (18 DOWNTO 0);
+SIGNAL rdaddressPar_tb		:	STD_LOGIC_VECTOR (4 DOWNTO 0);
+SIGNAL rdaddressImpar_tb	:	STD_LOGIC_VECTOR (4 DOWNTO 0);
+SIGNAL rden_tb					:	STD_LOGIC;
+SIGNAL F_dirMPtoC1			:	STD_LOGIC;
+SIGNAL qRAMPares				:	STD_LOGIC_VECTOR (18 DOWNTO 0);
+SIGNAL qRAMImpares			:	STD_LOGIC_VECTOR (18 DOWNTO 0);
+
+BEGIN
+
+process
+begin
+   clk_tb <= '1';
+   wait for PERIODO/2;
+   clk_tb <= '0';
+   wait for PERIODO/2;
+end process;
+
+	DUT: ENTITY work.RegistrosRAM
+	PORT MAP (
+-- list connections between master ports and signals
+	clk => clk_tb,
+	RESET => RESET_tb,
+	Bit_entrada => Bit_entrada_tb,
+	
+	nsoftmax	=> nsoftmax_tb,
+	Apnea_OUT		=> Apnea_OUT_tb,
+	Reset_out_ext	=> Reset_out_ext_tb,
+	Reloj_out		=> Reloj_out_tb);
+	
+testVectorGenerator : PROCESS                                               
+-- variable declarations                                     
+BEGIN                                                        
+--Inicio
+RESET_tb <= '0';
+Bit_entrada_tb <= '1';   
+               
+WAIT FOR 500 ns;      
+--Espera por el bit de inicio ------------ PRIMEROS 8 BYTES
+RESET_tb <= '1';
+Bit_entrada_tb <= '0';   
+                     
+WAIT FOR 104 us;
+--Próximo byte es '10101010' - C_abdom
+RESET_tb <= '1';
+Bit_entrada_tb <= '0';   --Bit menos significativo   
+                  
+
+
+									
+END PROCESS testVectorGenerator;                                           
+                                        
+END RegistrosRAM_tb_arch;

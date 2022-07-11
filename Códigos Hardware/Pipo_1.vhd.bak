@@ -1,0 +1,44 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+-------------------------------------
+ENTITY Pipo_1 IS
+	PORT( 	clk					:		IN		STD_LOGIC;		--Reloj del sistema de 50 MHz
+				n_Res					:		IN		STD_LOGIC;
+				nRegPar					:		IN 	STD_LOGIC;		--LLega de control enviado previamente por bloque contar_8_bits 	--
+				Pipo_1_IN		:		IN		STD_LOGIC_VECTOR (7 DOWNTO 0);
+				
+				Pipo_1_OUT		:		OUT	STD_LOGIC_VECTOR(7 DOWNTO 0)
+								);												
+END ENTITY;
+
+-------------------------------------
+architecture Pipo_1Arch of Pipo_1 is
+component dffe is
+	port(d, clk, clrn, prn, ena: in std_logic;
+		q: out std_logic
+			);
+end component;
+signal Q : std_logic_vector (7 downto 0);
+signal D : std_logic_vector (7 downto 0);
+signal O :  std_logic;
+
+signal E : std_logic;
+SIGNAL estado: STD_LOGIC_VECTOR(7 DOWNTO 0);
+
+BEGIN
+PROCESS (clk, n_Res, nRegPar, Pipo_1_IN)
+BEGIN 
+IF ( n_Res = '1') THEN
+	estado <= "00000000";
+ELSIF (rising_edge(clk)) THEN
+	IF (nRegPar = '1') THEN 
+		estado <= Pipo_1_IN;
+						
+	END IF;
+END IF;
+
+END PROCESS;
+
+Pipo_1_OUT <= estado;
+
+End Pipo_1Arch;
